@@ -92,7 +92,7 @@ class LoginController extends Controller
         }
      
         $userableType = str_replace('\\', '_', $userableType);
-        
+
         return \Section::get("login.$userableType.redirect");
     }
  

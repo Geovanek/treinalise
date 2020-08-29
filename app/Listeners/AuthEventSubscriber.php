@@ -10,14 +10,15 @@ class AuthEventSubscriber
 {
     public function onLogin(Login $event)
     {
-        //$data= $logSuccessfulLogin->guard;
-        //dd($data);
-        if (\SectionGuard::hasGuardLogged($event->guard) ||
-            !\SectionGuard::hasAuthGuard($event->guard)) {
+        $logGuard= new LogSuccessfulLogin;
+        $userGuard = $logGuard->handle($event);
+
+        if (\SectionGuard::hasGuardLogged($userGuard) ||
+            !\SectionGuard::hasAuthGuard($userGuard)) {
             return;
         }
 
-        $guards = \SectionGuard::exceptGuard($event->guard);
+        $guards = \SectionGuard::exceptGuard($userGuard);
 
         foreach ($guards as $guard) {
             $provider = \Auth::guard($guard)->getProvider();

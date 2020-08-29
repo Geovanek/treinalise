@@ -14,7 +14,7 @@ return [
     */
 
     'defaults' => [
-        'guard' => 'athlete_web',
+        'guard' => 'user_web',
         'passwords' => 'users',
     ],
 

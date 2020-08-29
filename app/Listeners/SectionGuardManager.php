@@ -8,10 +8,9 @@ use Illuminate\Support\Arr;
 class SectionGuardManager
 {
     private $authGuards = [
-        'user_web',
         'admin_web',
-        'athlete_web',
         'coach_web',
+        'athlete_web',
     ];
 
     private $guardsLogged = [];
@@ -34,7 +33,7 @@ class SectionGuardManager
 
     public function exceptGuard(string $guard = null): array
     {
-        return Arr::except($this->authGuards, 'user_web');
+        return Arr::except($this->authGuards, $guard);
     }
 
     public function getGuardsLogged(): array
