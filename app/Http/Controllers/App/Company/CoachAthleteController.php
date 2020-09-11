@@ -36,7 +36,7 @@ class CoachAthleteController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Athlete $athlete)
     {
         dd($athlete);
         return view('app.company.athletes.edit', compact('athlete'));
@@ -49,7 +49,7 @@ class CoachAthleteController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Athlete $athlete)
     {
         $athlete->update($request->all());
         return redirect()->route('athletes.index');

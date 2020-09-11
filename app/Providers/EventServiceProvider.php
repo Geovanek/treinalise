@@ -21,6 +21,7 @@ class EventServiceProvider extends ServiceProvider
         ],
         \SocialiteProviders\Manager\SocialiteWasCalled::class => [
             'SocialiteProviders\Strava\StravaExtendSocialite@handle',
+            'SocialiteProviders\GitHub\GitHubExtendSocialite@handle',
         ],
         'Illuminate\Auth\Events\Login' => [
             'App\Listeners\LogSuccessfulLogin',

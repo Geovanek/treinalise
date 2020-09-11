@@ -24,7 +24,7 @@ return [
                     'guard' => 'coach_web',
                 ],
                 'App_Models_Athlete' => [
-                    'redirect' =>'/app/athlete',
+                    'redirect' =>'/app/athlete/home',
                     'guard' => 'athlete_web',
                 ],
             ]

@@ -3,6 +3,9 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
+
+        @include('app.includes.alerts')
+
         <div class="col-md-8">
             <table class="table table-bordered">
                 <thead>

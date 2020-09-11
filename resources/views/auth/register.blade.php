@@ -12,19 +12,19 @@
                         @csrf
 
                         {{-- Campos ocultos para preenchimento via Socialite --}}
-                        <input id="sex" type="hidden" name="sex" value="{{ old('sex', $userSocial->user['sex'] ?? '') }}">
-                        <input id="weight" type="hidden" name="weight" value="{{ old('weight', $userSocial->user['weight'] ?? '') }}">
-                        <input id="avatar" type="hidden" name="avatar" value="{{ old('avatar', $userSocial->avatar ?? '') }}">
-                        <input id="strava_id" type="hidden" name="strava_id" value="{{ old('strava_id', $userSocial->id ?? '') }}">
-                        <input id="strava_access_token" type="hidden" name="strava_access_token" value="{{ old('strava_access_token', $userSocial->token ?? '') }}">
-                        <input id="strava_refresh_token" type="hidden" name="strava_refresh_token" value="{{ old('strava_refresh_token', $userSocial->refreshToken ?? '') }}">
-                        <input id="strava_access_token_expires_at" type="hidden" name="strava_access_token_expires_at" value="{{ old('strava_access_token_expires_at', $userSocial->accessTokenResponseBody['expires_at'] ?? '') }}">
+                        <input id="sex" type="hidden" name="sex" value="{{ old('sex', $userProvider->user['sex'] ?? '') }}">
+                        <input id="weight" type="hidden" name="weight" value="{{ old('weight', $userProvider->user['weight'] ?? '') }}">
+                        <input id="avatar" type="hidden" name="avatar" value="{{ old('avatar', $userProvider->avatar ?? '') }}">
+                        <input id="strava_id" type="hidden" name="strava_id" value="{{ old('strava_id', $userProvider->id ?? '') }}">
+                        <input id="strava_access_token" type="hidden" name="strava_access_token" value="{{ old('strava_access_token', $userProvider->token ?? '') }}">
+                        <input id="strava_refresh_token" type="hidden" name="strava_refresh_token" value="{{ old('strava_refresh_token', $userProvider->refreshToken ?? '') }}">
+                        <input id="strava_access_token_expires_at" type="hidden" name="strava_access_token_expires_at" value="{{ old('strava_access_token_expires_at', $userProvider->accessTokenResponseBody['expires_at'] ?? '') }}">
 
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
 
                             <div class="col-md-6">
-                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name', $userSocial->name ?? '') }}" required autocomplete="name" autofocus>
+                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name', $userProvider->name ?? '') }}" required autocomplete="name" autofocus>
 
                                 @error('name')
                                     <span class="invalid-feedback" role="alert">
@@ -103,16 +103,11 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Register') }}
                                 </button>
-                            </div>
-                        </div>
-                    </form>
-                    <form class="form-inline" method="post" action="{{ url('/login/social') }}">
-                        {{ csrf_field() }}
-                        <div class="col-md-12 text-center">
 
-                            <button type="submit" class="btn btn-warning" value="strava" name="social_type">
-                                Login with Strava
-                            </button>
+                                <a href="{{ route('social.login', ['provider' => 'strava']) }}" class="btn btn-warning">
+                                    Register with Strava
+                                </a>
+                            </div>
                         </div>
                     </form>
                 </div>

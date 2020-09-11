@@ -8,19 +8,27 @@ use Illuminate\Http\Request;
 
 class CompanyAthleteController extends Controller
 {
+    protected $repository;
+
+    public function __construct(Athlete $athlete)
+    {
+        $this->repository = $athlete;
+    }
+
     /**
-     * Display a listing of the resource.
+     * Exibe a lista de atletas pertencentes a empresa.
      *
      * @return \Illuminate\Http\Response
      */
     public function index()
     {
-        $athletes = Athlete::all();
+        $athletes = $this->repository->get();
+
         return view('app.company.athletes.index', compact('athletes'));
     }
 
     /**
-     * Display the specified resource.
+     * Exibe um atleta da empresa.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -31,13 +39,19 @@ class CompanyAthleteController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Exibe o formulário para edição dos dados pessoais
+     * do atleta.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
     {
+        if (!$athlete = $this->repository->find($id)) {
+            return redirect()->route('athletes.index')
+                             ->with('alert', 'Atleta não encontrado.');
+        }
+
         return view('app.company.athletes.edit', compact('athlete'));
     }
 
@@ -50,8 +64,15 @@ class CompanyAthleteController extends Controller
      */
     public function update(Request $request, $id)
     {
+        if (!$athlete = $this->repository->find($id)) {
+            return redirect()->route('athletes.index')
+                             ->with('alert', 'Atleta não encontrado.');
+        }
+
         $athlete->user->update($request->all());
-        return redirect()->route('athletes.index');
+
+        return redirect()->route('athletes.index')
+                         ->with('message', 'Atleta atualizado com sucesso.');
     }
 
     /**
@@ -61,9 +82,16 @@ class CompanyAthleteController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function unlink(Request $request, Athlete $athlete)
+    public function unlink(Request $request, $id)
     {
+        if (!$athlete = $this->repository->find($id)) {
+            return redirect()->route('athletes.index')
+                             ->with('alert', 'Atleta não encontrado.');
+        }
+
         $athlete->update($request->all());
-        return redirect()->route('athletes.index');
+
+        return redirect()->route('athletes.index')
+                         ->with('message', 'Atleta desvinculado com sucesso.');
     }
 }

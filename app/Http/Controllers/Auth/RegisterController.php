@@ -78,6 +78,7 @@ class RegisterController extends Controller
     protected function create(array $data)
     {
         $user = User::where('email', $data['email'])->first();
+        dd($user);
 
         if ($user) {
             if (Hash::check($data['password'], $user->password)) {
@@ -104,7 +105,7 @@ class RegisterController extends Controller
                 ]);
 
                 if ($validator->fails()) {
-                   return $validator;
+                   dd($validator);
                 }
             }
         } else {
@@ -134,7 +135,6 @@ class RegisterController extends Controller
 
         event(new Registered($user = $this->create($request->all())));
 
-        //dd($user);
         if (method_exists($user, 'validate')) {
             return $user->validate();
         }

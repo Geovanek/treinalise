@@ -19,9 +19,11 @@
         "laravel/socialite": "^4.4",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.1",
-        "socialiteproviders/strava": "^3.0"
+        "socialiteproviders/github": "^1.0",
+        "socialiteproviders/strava": "dev-master"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.4",
         "barryvdh/laravel-ide-helper": "^2.8",
         "facade/ignition": "^2.0",
         "fzaninotto/faker": "^1.9.1",

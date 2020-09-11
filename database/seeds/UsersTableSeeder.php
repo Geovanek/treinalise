@@ -99,6 +99,17 @@ class UsersTableSeeder extends Seeder
                 'coach_id' => 3,
                 ]);
             });
+
+        factory(\App\Models\User::class, 1)
+            ->make([
+                'email' => 'athlete4@user.com',
+            ])->each(function ($user) use ($self){
+                \App\Models\Athlete::createUser([
+                'user' => $self->userToArray($user),
+                'company_id' => 3,
+                'coach_id' => 1,
+                ]);
+            });
     }
 
     private function userToArray($user)

@@ -43,35 +43,25 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 
-    public function socialRedirect(Request $request) 
+    public function redirectProvider($provider) 
     {
-        $this->validate($request, [
-            'social_type' => 'required|in:strava'
-        ]);
-
-        $socialType = $request->get('social_type');
-
-        \Session::put('social_type',$socialType);
-
-        return \Socialite::with($socialType)
+        return \Socialite::driver($provider)
                             ->setScopes(['profile:read_all', 'activity:read_all'])
                             ->redirect();
     }
 
-    public function socialCallback() 
+    public function handleProviderCallback($provider) 
     {
-        $socialType = \Session::get('social_type');
-
         try {
-            $userSocial = \Socialite::driver($socialType)->stateless()->user();
+            $userProvider = \Socialite::driver($provider)->stateless()->user();
         } catch (\Exception $e) {
             return redirect('/login');
         }
 
-        $user = User::where($socialType.'_id', $userSocial->id)->first();
+        $user = User::where($provider.'_id', $userProvider->id)->first();
 
         if(!$user){
-            return view('auth.register', compact('userSocial'));
+            return view('auth.register', compact('userProvider'));
         }
 
         \Auth::login($user); //fazendo o login manual

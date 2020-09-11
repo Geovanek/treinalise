@@ -12,7 +12,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Coach extends Model
 {
-    use TenantModels;
+    use TenantModels, Uuid;
 
     const ROLE_HEAD_COACH = 1;
     const ROLE_COACH = 2;
@@ -37,7 +37,7 @@ class Coach extends Model
     {
         $coach = self::create([
             'company_id' => $attributes['company_id'],
-            'role' => $attributes['role']
+            'role' => $attributes['role'],
         ]);
         $coach->users()->create($attributes['user']);
         return $coach;

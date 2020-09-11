@@ -15,6 +15,7 @@ class CreateAthletesTable extends Migration
     {
         Schema::create('athletes', function (Blueprint $table) {
             $table->id('id');
+            $table->uuid('uuid')->index();
             $table->tenantCompany();
             $table->tenantCoach();
             $table->timestamps();

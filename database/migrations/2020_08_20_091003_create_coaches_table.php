@@ -15,6 +15,7 @@ class CreateCoachesTable extends Migration
     {
         Schema::create('coaches', function (Blueprint $table) {
             $table->id('id');
+            $table->uuid('uuid')->index();
             $table->smallInteger('role')->default(0);
             $table->tenantCompany();
             $table->timestamps();

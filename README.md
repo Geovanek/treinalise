@@ -1,61 +1,112 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# Treinalise
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Alterações no Template Gull
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Detalhes dos arquivos que foram modificados no template original do Gull Admin Panel para chegar nas cores desejadas para o site.
 
-## Learning Laravel
+- Criado o arquivo *_custom_colors.scss* dentro da pasta ``resources\gull\assets\styles\sass\themes`` para definir as novas cores utilizadas.
+````
+  "jet": #363735,
+  "onyx": #3b3c3a,
+  "coffee": #684b39,
+  "orange-crayola": #ee7534,
+  "chocolate-web": #ce6426,
+  "linen": #f7e8e0,
+  "cultured": #f7f7f7,
+````
+- Criado o arquivo *lite_custom.scss* com as configurações do novo tema nesta nova pasta e importado no webpack.mix.js
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Alterações na pasta Globals: ``resources\gull\assets\styles\sass\globals``
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Dentro da pasta ``layouts`` contém arquivos comuns a todos os sub-templates:
+- _footer.scss
+````
+.app-footer {
+    background: $gray-300;
+}
+````
 
-## Laravel Sponsors
+#### Na pasta ``layouts\sidebar-large``, template utilizado no admin do site:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- _header.scss
+````
+.main-header {
+    background: $dark;
+    .menu-toggle {
+        div {
+            background: $light
+        }
+    }
+    .search-bar {
+        background: $gray-300;
+        border: 1px solid $gray-400;
+    }
+    .header-icon {
+        color: $background;
+        &:hover {
+            background: $primary;
+        }
+    }
+}
+````
 
-### Premium Partners
+- _layout-sidebar-large.scss:
+````
+.main-content-wrap {
+    background: $background;
+}
+.layout-sidebar-large {
+    .sidebar-left-secondary,
+    .sidebar-left {
+        background: $primary-base;
+    }
+    .sidebar-left {
+        .navigation-left {
+            .nav-item {
+                border-bottom: 1px solid $heading;
+                &.active {
+                    color: $secondary;
+                    .nav-item-hold {
+                        color: $secondary;
+                    }
+                }
+                .nav-item-hold {
+                    color: $light;
+                }
+                a {
+                    color: $light;
+                }
+                &.active .triangle {
+                    border-color: transparent transparent $dark-heading
+                }
+            }
+        }
+    }
+}
+.sidebar-left-secondary {
+    background: $gray-100;
+    .childNav {
+        li.nav-item {
+            a {
+                color: $secondary;
+                &:hover {
+                    background: $gray-300;
+                }
+                &.open {
+                    color: $secondary;
+                }
+                .nav-icon {
+                    color: $secondary;
+                }
+            }
+        }
+    }
+}
+````
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+Na pasta ``layouts\vertical-sidebar``:
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- 

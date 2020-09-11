@@ -1,0 +1,31 @@
+$custom-solid-colors: (
+  "blue": #3490dc,
+  "indigo": #6574cd,
+  "purple": #9561e2,
+  "pink": #f66d9b,
+  "red": #e3342f,
+  "orange": #f6993f,
+  "yellow": #ffed4a,
+  "green": #38c172,
+  "teal": #4dc0b5,
+  "cyan": #6cb2eb,
+  "jet": #363735,
+  "onyx": #3b3c3a,
+  "coffee": #684b39,
+  "orange-crayola": #ee7534,
+  "chocolate-web": #ce6426,
+  "linen": #f7e8e0,
+  "cultured": #f7f7f7,
+);
+
+// Gradient colors
+$custom-gradient-colors: (
+  gradient-onyx-orange-crayola: (
+    "start-color": #ee7534,
+    "end-color": #3b3c3a,
+  ),
+  gradient-jet-cultured: (
+    'start-color' : #f7f7f7,
+      'end-color' : #363735
+  ),
+);

@@ -12,7 +12,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Athlete extends Model
 {
-    use TenantModels;
+    use TenantModels, Uuid;
 
     protected $fillable = [
         'company_id','coach_id'
@@ -22,7 +22,7 @@ class Athlete extends Model
     {
         $athlete = self::create([
             'company_id' => $attributes['company_id'],
-            'coach_id' => $attributes['coach_id']
+            'coach_id' => $attributes['coach_id'],
         ]);
         $athlete->users()->create($attributes['user']);
         return $athlete;

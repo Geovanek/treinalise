@@ -57,21 +57,20 @@
                                     {{ __('Login') }}
                                 </button>
 
+                                <a href="{{ route('social.login', ['provider' => 'strava']) }}" class="btn btn-warning">
+                                    Login with Strava
+                                </a>
+
+                                <a href="{{ route('social.login', ['provider' => 'github']) }}" class="btn btn-default">
+                                    Login with Github
+                                </a>
+
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
                                         {{ __('Forgot Your Password?') }}
                                     </a>
                                 @endif
                             </div>
-                        </div>
-                    </form>
-                    <form class="form-inline" method="post" action="{{ url('/login/social') }}">
-                        {{ csrf_field() }}
-                        <div class="col-md-12 text-center">
-
-                            <button type="submit" class="btn btn-warning" value="strava" name="social_type">
-                                Login with Strava
-                            </button>
                         </div>
                     </form>
                 </div>

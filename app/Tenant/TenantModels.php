@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 trait TenantModels
 {
-    protected static function booted()
+    protected static function bootedTenantModels()
     {
         static::addGlobalScope(new TenantScope());
 
