@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Code\Validator\Cpf;
 use Code\Validator\Cnpjf;
+use Illuminate\Pagination\Paginator;
 use Illuminate\Database\Events\QueryExecuted;
 use Illuminate\Support\ServiceProvider;
 
@@ -43,5 +44,7 @@ class AppServiceProvider extends ServiceProvider
         });
 
         \Tenant::bluePrintMacros();
+
+        Paginator::useBootstrap();
     }
 }
