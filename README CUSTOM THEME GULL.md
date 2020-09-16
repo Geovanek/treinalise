@@ -51,7 +51,7 @@ na pasta ``layouts`` contém arquivos comuns a todos os templates. Alterações 
 - _layout-sidebar-large.scss:
 ````
 .main-content-wrap {
-    background: $background;
+    background: $white;
 }
 .layout-sidebar-large {
     .sidebar-left-secondary,

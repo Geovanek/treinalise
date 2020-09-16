@@ -18,9 +18,11 @@ class CreatePlansTable extends Migration
             $table->string('name')->unique();
             $table->string('url')->unique();
             $table->double('price', 10, 2);
-            $table->string('price-details');
+            $table->string('price_details');
             $table->string('description')->nullable();
             $table->string('discount')->nullable();
+            $table->string('icon')->nullable();
+            $table->string('state_color')->nullable();
             $table->boolean('active');
             $table->timestamps();
         });

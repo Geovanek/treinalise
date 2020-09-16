@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Models\Plan;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\StoreUpdatePlan;
+use App\Models\Plan;
 use Illuminate\Http\Request;
 
 class PlanController extends Controller
@@ -18,7 +19,7 @@ class PlanController extends Controller
     }
 
     /**
-     * Display a listing of the resource.
+     * Exibe uma lista com todos os planos.
      *
      * @return \Illuminate\Http\Response
      */
@@ -26,7 +27,7 @@ class PlanController extends Controller
     {
         $plans = $this->repository->get();
 
-        return view('admin.plans.index', ['plans' => $plans]);
+        return view('admin.plans.index', compact('plans'));
     }
 
     /**
@@ -69,19 +70,32 @@ class PlanController extends Controller
      */
     public function edit($id)
     {
-        //
+        $plan = $this->repository->where('id', $id)->first();
+
+        if(!$plan)
+            return redirect()->back();
+        
+        return view('admin.plans.edit', compact('plan'));
     }
 
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \Illuminate\Http\Requests  $request
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
     {
-        //
+        dd($request->all());
+        $plan = $this->repository->where('id', $id)->first();
+
+        if (!$plan)
+            return redirect()->back();
+
+        $plan->update($request->all());
+
+        return redirect()->route('plans.index');
     }
 
     /**

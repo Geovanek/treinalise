@@ -10,7 +10,7 @@
             </li>
             <li class="nav-item {{ request()->is('admin/companies/*') ? 'active' : '' }}" data-item="_blank">
                 <a class="nav-item-hold" href="#">
-                    <i class="nav-icon i-Shop-2"></i>
+                    <i class="nav-icon i-Shop"></i>
                     <span class="nav-text">Empresas</span>
                 </a>
                 <div class="triangle"></div>

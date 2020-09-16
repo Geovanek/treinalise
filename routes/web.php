@@ -39,20 +39,20 @@ Route::group(['namespace' => 'App', 'prefix' => 'app'], function(){
     });
 
     Route::group(['middleware' => ['auth:athlete_web', 'bindings'], 'namespace' => 'Athlete', 'prefix' => 'athlete'], function(){
-        Route::get('/home', 'AthleteController@index')->name('home');
+        Route::get('/home', 'AthleteController@index')->name('athlete.home');
     });
 });
 
 
 Route::group(['namespace' => 'Admin', 'prefix' => 'admin'], function(){
     Route::group(['middleware' => ['auth:admin_web', 'bindings']], function(){
+        Route::resource('plans', 'PlanController');
         Route::get('/dashboard', function(){
             return view('admin.dashboard');
         })->name('admin.dashboard');
         Route::get('/icons', function () {
             return view('admin.icons');
         })->name('admin.icons');
-        Route::resource('plans', 'PlanController');
         //Route::get('/dashboard', 'AdminController@index')->name('dashboard');
     });
 });

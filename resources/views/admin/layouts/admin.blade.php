@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <!-- The AMP runtime must be loaded as the second child of the `<head>` tag.-->
     <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
 
     <!-- CSRF Token -->
@@ -69,6 +70,7 @@
     {{-- <script src="{{mix('assets/js/es5/script.js')}}"></script> --}}
     <script src="{{asset('gull/assets/js/script.js')}}"></script>
     <script src="{{asset('gull/assets/js/sidebar.large.script.js')}}"></script>
+    <script src="{{asset('gull/assets/js/tooltip.script.js')}}"></script>
 
     {{-- laravel js --}}
     {{-- <script src="{{mix('assets/js/laravel/app.js')}}"></script> --}}
