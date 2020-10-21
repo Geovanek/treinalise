@@ -19,6 +19,8 @@ class PlansTableSeeder extends Seeder
             'price' => 0.00,
             'price_details' => 'Cortesia de uso para empresas selecionadas',
             'description' => '',
+            'icon' => 'i-Gift-Box',
+            'state_color' => 'secondary',
             'active' => false,
         ]);
 
@@ -28,6 +30,8 @@ class PlansTableSeeder extends Seeder
             'price' => 29.99,
             'price_details' => 'reais/mês + R$99,00 taxa de adesão',
             'description' => 'Inicie com as ferramentas básicas, limitado a 5 atletas',
+            'icon' => 'i-Pie-Chart-2',
+            'state_color' => 'danger',
             'active' => true,
         ]);
 
@@ -37,6 +41,8 @@ class PlansTableSeeder extends Seeder
             'price' => 89.99,
             'price_details' => 'reais/mês + R$99,00 taxa de adesão',
             'description' => 'Ferramentas básicas e atletas ilimitados',
+            'icon' => 'i-Coins',
+            'state_color' => 'primary',
             'active' => true,
         ]);
 
@@ -46,6 +52,8 @@ class PlansTableSeeder extends Seeder
             'price' => 971.89,
             'price_details' => 'reais/ano + R$99,00 taxa de adesão',
             'description' => 'Ferramentas básicas e atletas ilimitados',
+            'icon' => 'i-Bar-Chart-2',
+            'state_color' => 'warning',
             'discount' => '10%',
             'active' => true,
         ]);
@@ -56,6 +64,8 @@ class PlansTableSeeder extends Seeder
             'price' => 149.99,
             'price_details' => 'reais/ano + R$99,00 taxa de adesão',
             'description' => 'Todas as extensões inclusas e atletas ilimitados',
+            'icon' => 'i-Bar-Chart',
+            'state_color' => 'info',
             'discount' => '5%',
             'active' => true,
         ]);
@@ -66,6 +76,8 @@ class PlansTableSeeder extends Seeder
             'price' => 199.99,
             'price_details' => 'reais/ano + R$99,00 taxa de adesão',
             'description' => 'Todas as extensões inclusas e atletas ilimitados',
+            'icon' => 'i-Medal-3',
+            'state_color' => 'success',
             'discount' => '20%',
             'active' => true,
         ]);

@@ -8,6 +8,13 @@ use Illuminate\Http\Request;
 
 class CoachAthleteController extends Controller
 {
+    protected $repository;
+
+    public function __construct(Athlete $athlete)
+    {
+        $this->repository = $athlete;
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -15,7 +22,7 @@ class CoachAthleteController extends Controller
      */
     public function index()
     {
-        $athletes = Athlete::all();
+        $athletes = $this->repository->get();
         return view('app.company.coach.index', compact('athletes'));
     }
 
@@ -38,7 +45,6 @@ class CoachAthleteController extends Controller
      */
     public function edit(Athlete $athlete)
     {
-        dd($athlete);
         return view('app.company.athletes.edit', compact('athlete'));
     }
 

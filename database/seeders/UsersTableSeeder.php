@@ -16,7 +16,7 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         $self = $this;
-        factory(\App\Models\User::class, 1)
+        \App\Models\User::factory(1)
             ->make([
                 'name' => 'Geovane Krüger',
                 'email' => 'admin@user.com',
@@ -27,7 +27,7 @@ class UsersTableSeeder extends Seeder
             });
 
         //\Tenant::setTenant(Company::find(1));
-        factory(\App\Models\User::class, 1)
+        \App\Models\User::factory(1)
             ->make([
                 'name' => 'Geovane Krüger',
                 'email' => 'geovanek@gmail.com',
@@ -42,7 +42,7 @@ class UsersTableSeeder extends Seeder
             });
 
         //\Tenant::setTenant(Company::find(1));
-        factory(\App\Models\User::class, 1)
+        \App\Models\User::factory(1)
             ->make([
                 'email' => 'coach1@user.com',
             ])->each(function ($user) use ($self){
@@ -54,7 +54,7 @@ class UsersTableSeeder extends Seeder
             });
 
         //\Tenant::setTenant(Company::find(2));
-        factory(\App\Models\User::class, 1)
+        \App\Models\User::factory(1)
             ->make([
                 'email' => 'coach2@user.com',
             ])->each(function ($user) use ($self){
@@ -66,7 +66,7 @@ class UsersTableSeeder extends Seeder
             });
 
         //\Tenant::setTenant(Company::find(1));
-        factory(\App\Models\User::class, 1)
+        \App\Models\User::factory(1)
             ->make([
                 'email' => 'athlete1@user.com',
             ])->each(function ($user) use ($self){
@@ -78,7 +78,7 @@ class UsersTableSeeder extends Seeder
             });
 
         //\Tenant::setTenant(Company::find(1));
-        factory(\App\Models\User::class, 1)
+        \App\Models\User::factory(1)
             ->make([
                 'email' => 'athlete2@user.com',
             ])->each(function ($user) use ($self){
@@ -90,7 +90,7 @@ class UsersTableSeeder extends Seeder
             });
 
         //\Tenant::setTenant(Company::find(2));
-        factory(\App\Models\User::class, 1)
+        \App\Models\User::factory(1)
             ->make([
                 'email' => 'athlete3@user.com',
             ])->each(function ($user) use ($self){
@@ -101,7 +101,7 @@ class UsersTableSeeder extends Seeder
                 ]);
             });
 
-        factory(\App\Models\User::class, 1)
+        \App\Models\User::factory(1)
             ->make([
                 'email' => 'athlete4@user.com',
             ])->each(function ($user) use ($self){

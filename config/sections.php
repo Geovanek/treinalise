@@ -27,7 +27,8 @@ return [
                     'redirect' =>'/app/athlete/home',
                     'guard' => 'athlete_web',
                 ],
-            ]
+            ],
+            'layout' => 'layouts.app',
         ]
     ]
 ];

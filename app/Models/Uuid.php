@@ -6,7 +6,7 @@ use Illuminate\Support\Str;
 
 trait Uuid
 {
-    protected static function booted()
+    protected static function bootUuid()
     {
         static::creating(function ($obj) {
             $obj->uuid = Str::Uuid();

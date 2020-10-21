@@ -12,25 +12,27 @@ const mix = require("laravel-mix");
  */
 
 mix
-    /* CSS */
+    /* Laravel */
     .js("resources/js/app.js", "public/js")
     .sass("resources/sass/app.scss", "public/css")
+
+    /* Gull Theme */
     .sass(
         "resources/gull/assets/styles/sass/themes/lite-custom.scss",
         "public/gull/assets/styles/css/themes/lite-custom.min.css"
-    );
-    /* options({
-        processCssUrls: false,
-     }); */
+    )
     /* .sass(
         "resources/gull/assets/styles/sass/themes/dark-purple.scss",
         "public/assets/styles/css/themes/dark-purple.min.css"
     ); */
+    .js("resources/gull/assets/js/script.js", "public/gull/assets/js/script.js")
 
-/* JS */
+    /* Livewire */
+    .js("resources/js/livewireToastr.js", "public/js")
+    .js("resources/js/livewireSweetAlert.js", "public/js");
 
-/* Laravel JS */
 
+/* Gull Theme */
 mix.combine(
     [
         "resources/gull/assets/js/vendor/jquery-3.3.1.min.js",
@@ -39,5 +41,3 @@ mix.combine(
     ],
     "public/gull/assets/js/common-bundle-script.js"
 );
-
-mix.js(["resources/gull/assets/js/script.js"], "public/gull/assets/js/script.js");

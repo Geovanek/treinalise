@@ -72,7 +72,7 @@
                 <div class="triangle"></div>
             </li>
             <li class="nav-item">
-                <a class="" href="#">
+                <a class="" href="{{ route('extensions.index') }}">
                     <i class="nav-icon i-Financial"></i>
                     <span class="nav-text">Extensões</span>
                 </a>

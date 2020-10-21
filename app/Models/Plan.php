@@ -6,7 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Plan extends Model
 {
-    protected $fillable = ['name', 'url', 'price', 'price-details', 'description', 'discount', 'active'];
+    use Uuid;
+    
+    protected $fillable = ['name', 'url', 'price', 'price_details', 'description', 'discount', 'icon', 'state_color', 'active'];
 
     public function companies()
     {

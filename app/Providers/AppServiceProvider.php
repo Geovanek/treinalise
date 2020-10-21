@@ -2,6 +2,10 @@
 
 namespace App\Providers;
 
+use App\Models\Extension;
+use App\Models\Plan;
+use App\Observers\ExtensionObserver;
+use App\Observers\PlanObserver;
 use Code\Validator\Cpf;
 use Code\Validator\Cnpjf;
 use Illuminate\Pagination\Paginator;
@@ -46,5 +50,8 @@ class AppServiceProvider extends ServiceProvider
         \Tenant::bluePrintMacros();
 
         Paginator::useBootstrap();
+
+        Plan::observe(PlanObserver::class);
+        Extension::observe(ExtensionObserver::class);
     }
 }

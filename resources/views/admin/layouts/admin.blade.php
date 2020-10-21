@@ -10,7 +10,12 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Admin .:. Treinalise') }}</title>
+    {{-- <title>{{ config('app.name', 'Admin .:. Treinalise') }}</title> --}}
+       {{-- Title --}}
+    <title>
+        @yield('title', config('app.name'))
+        @yield('title_postfix', ' - Admin .:. Treinalise')
+    </title>
 
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet">
 
@@ -23,6 +28,8 @@
 
     {{-- page specific css --}}
     @yield('page-css')
+
+    @livewireStyles
 </head>
 
 <body class="text-left">
@@ -64,6 +71,11 @@
     <script src="{{mix('gull/assets/js/common-bundle-script.js')}}"></script>
 
     {{-- page specific javascript --}}
+    <script>
+        $('a[href="#"]').click(function(e) {
+            e.preventDefault ? e.preventDefault() : e.returnValue = false;
+        });
+    </script>
     @yield('page-js')
 
     {{-- theme javascript --}}
@@ -71,10 +83,16 @@
     <script src="{{asset('gull/assets/js/script.js')}}"></script>
     <script src="{{asset('gull/assets/js/sidebar.large.script.js')}}"></script>
     <script src="{{asset('gull/assets/js/tooltip.script.js')}}"></script>
+    <script src="{{asset('gull/assets/js/vendor/toastr.min.js')}}"></script>
 
     {{-- laravel js --}}
     {{-- <script src="{{mix('assets/js/laravel/app.js')}}"></script> --}}
 
     @yield('bottom-js')
+
+    {{-- livewire js --}}
+    @livewireScripts
+    @yield('livewire-js')
+    
 </body>
 </html>

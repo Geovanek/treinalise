@@ -60,11 +60,7 @@
                                 <a href="{{ route('social.login', ['provider' => 'strava']) }}" class="btn btn-warning">
                                     Login with Strava
                                 </a>
-
-                                <a href="{{ route('social.login', ['provider' => 'github']) }}" class="btn btn-default">
-                                    Login with Github
-                                </a>
-
+                                
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
                                         {{ __('Forgot Your Password?') }}

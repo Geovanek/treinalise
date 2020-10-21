@@ -78,7 +78,6 @@ class RegisterController extends Controller
     protected function create(array $data)
     {
         $user = User::where('email', $data['email'])->first();
-        dd($user);
 
         if ($user) {
             if (Hash::check($data['password'], $user->password)) {

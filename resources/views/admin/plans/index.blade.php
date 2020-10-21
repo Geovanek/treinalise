@@ -1,7 +1,10 @@
 @extends(\Section::get('layout'))
 
+@section('title', "Planos")
+
 @section('page-css')
-{{-- --}}
+    <link rel="stylesheet" href="{{asset('gull/assets/styles/vendor/sweetalert2.min.css')}}">
+    <link rel="stylesheet" href="{{asset('gull/assets/styles/vendor/toastr.css')}}">
 @endsection
 
 @section('content')
@@ -21,7 +24,7 @@
                     <div class="card-header">
                         <h3 class="w-50 float-left card-title m-0">Planos</h3>
                         <div class="dropdown dropleft text-right w-50 float-right">
-                            <a href="" class="btn btn-raised ripple btn-raised-secondary">
+                            <a href="{{ route('plans.create') }}" class="btn btn-raised ripple btn-raised-secondary">
                                 <i class="nav-icon i-Add"></i> 
                                 Adicionar Plano
                             </a>
@@ -30,26 +33,26 @@
                     
                     <div class="card-body mb-4">
                         <div class="row justify-content-around">
-                            @foreach ($plans as $plan)
+                            @foreach ($plans as $index => $plan)
                             <div class="col-md-6 col-lg-4 col-xl-3 m-0 p-0">
                                 <div class="ul-pricing__table-2 ">
                                     <div class="ul-pricing__header">
-                                        <div class="ul-pricing__image text-info m-0">
-                                            <i class="i-Car-2"></i>
+                                        <div class="ul-pricing__image text-{{ $plan->state_color }} m-0 pt-1">
+                                            <i class="{{ $plan->icon }}"></i>
                                         </div>
                                         <div class="ul-pricing__main-number m-0"> 
-                                            <h1 class="heading text-info t-font-boldest">R$ {{ number_format($plan->price, 2, ',', '.') }} </h1>
+                                            <h1 class="heading text-{{ $plan->state_color }} t-font-boldest">R$ {{ number_format($plan->price, 2, ',', '.') }} </h1>
                                         </div>
                                         <div class="ul-pricing__month">
-                                            <small class="text-purple-100">{{ $plan->price_description }}</small>
+                                            <small class="text-purple-100">{{ $plan->price_details }}</small>
                                         </div>          
                                     </div>
                                     <div class="ul-pricing__title">
-                                        <h2 class="heading text-info">{{ $plan->name}}</h2>
+                                        <h2 class="heading text-{{ $plan->state_color }}">{{ $plan->name}}</h2>
                                     </div>
+                                    <div class="ul-pricing__text text-mute">{{ $plan->description }}</div>
                                     <div class="ul-pricing__table-listing mb-4">
                                         <ul>
-                                            <li class="t-font-bolder">Disk Space 250gb</li>
                                             <li class="t-font-bolder">Bandwidth 250gb</li>
                                             <li class="t-font-bolder">Databases</li>
                                             <li class="text-mute">E-mail accounts NO</li>
@@ -67,29 +70,39 @@
                                     <a href="" class="btn btn-primary btn-rounded" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Empresas vinculadas ao plano">
                                         <i class="nav-icon i-Shop"></i>
                                     </a>
-                                    <a href="{{ route('plans.destroy', $plan->id) }}" class="btn btn-danger btn-rounded" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Excluir plano">
-                                        <i class="nav-icon i-Close"></i>
-                                    </a>
+                                    <form action="{{ route('plans.destroy', $plan->id) }}" method="POST" style="display: inline">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button type="submit" class="btn btn-danger btn-rounded alert-confirm" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Excluir plano">
+                                            <i class="nav-icon i-Close"></i>
+                                        </button>
+                                    </form>
 
                                     <div class="row justify-content-around mt-4">
-                                        <label class="switch switch-success mr-3">
-                                            <span>Disponível no front?</span>
-                                        <input type="checkbox" checked="{{ ($plan->active==1) ? 'checked' : 'false' }}">
-                                            <span class="slider"></span>
-                                        </label>
+                                        @livewire('admin.plans.active', ['plan' => $plan], key($plan->id))
                                     </div>
                                 </div>  
                             </div>
                             @endforeach
+                            <div class='loadscreen' wire:loading>
+                                <div class="loader spinner-bubble spinner-bubble-primary"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    
 @endsection
 
-
 @section('page-js')
-{{-- --}}
+    <script src="{{asset('gull/assets/js/vendor/sweetalert2.min.js')}}"></script>
+    <script src="{{asset('gull/assets/js/sweetalert.script.js')}}"></script>
+    @include('admin.includes.toastr')
+    
+@endsection
+
+@section('livewire-js')
+    <script src="{{asset('js/livewireToastr.js')}}"></script>
 @endsection

@@ -17,1819 +17,1819 @@
         <div class="card-body">
             <div class="row">
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Add-Window"></i>
-                    <p>Add-Window</p>
+                    <p>i-Add-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Approved-Window"></i>
-                    <p>Approved-Window</p>
+                    <p>i-Approved-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Block-Window"></i>
-                    <p>Block-Window</p>
+                    <p>i-Block-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Close-Window"></i>
-                    <p>Close-Window</p>
+                    <p>i-Close-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Code-Window"></i>
-                    <p>Code-Window</p>
+                    <p>i-Code-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Delete-Window"></i>
-                    <p>Delete-Window</p>
+                    <p>i-Delete-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Duplicate-Window"></i>
-                    <p>Duplicate-Window</p>
+                    <p>i-Duplicate-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Error-404-Window"></i>
-                    <p>Error-404-Window</p>
+                    <p>i-Error-404-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Favorite-Window"></i>
-                    <p>Favorite-Window</p>
+                    <p>i-Favorite-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Full-View-Window"></i>
-                    <p>Full-View-Window</p>
+                    <p>i-Full-View-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Loading-Window"></i>
-                    <p>Loading-Window</p>
+                    <p>i-Loading-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Maximize-Window"></i>
-                    <p>Maximize-Window</p>
+                    <p>i-Maximize-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Minimize-Window"></i>
-                    <p>Minimize-Window</p>
+                    <p>i-Minimize-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Network-Window"></i>
-                    <p>Network-Window</p>
+                    <p>i-Network-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-New-Tab"></i>
-                    <p>New-Tab</p>
+                    <p>i-New-Tab</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-One-Window"></i>
-                    <p>One-Window</p>
+                    <p>i-One-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Restore-Window"></i>
-                    <p>Restore-Window</p>
+                    <p>i-Restore-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Sidebar-Window"></i>
-                    <p>Sidebar-Window</p>
+                    <p>i-Sidebar-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Split-Four-Square-Window"></i>
-                    <p>Split-Four-Square-Window</p>
+                    <p>i-Split-Four-Square-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Split-Horizontal-2-Window"></i>
-                    <p>Split-Horizontal-2-Window</p>
+                    <p>i-Split-Horizontal-2-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Split-Horizontal"></i>
-                    <p>Split-Horizontal</p>
+                    <p>i-Split-Horizontal</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Split-Vertical-2"></i>
-                    <p>Split-Vertical-2</p>
+                    <p>i-Split-Vertical-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Split-Vertical"></i>
-                    <p>Split-Vertical</p>
+                    <p>i-Split-Vertical</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Time-Window"></i>
-                    <p>Time-Window</p>
+                    <p>i-Time-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Touch-Window"></i>
-                    <p>Touch-Window</p>
+                    <p>i-Touch-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Two-Windows"></i>
-                    <p>Two-Windows</p>
+                    <p>i-Two-Windows</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Upload-Window"></i>
-                    <p>Upload-Window</p>
+                    <p>i-Upload-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-URL-Window"></i>
-                    <p>URL-Window</p>
+                    <p>i-URL-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Warning-Window"></i>
-                    <p>Warning-Window</p>
+                    <p>i-Warning-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Width-Window"></i>
-                    <p>Width-Window</p>
+                    <p>i-Width-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Windows-2"></i>
-                    <p>Windows-2</p>
+                    <p>i-Windows-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Cloud-Sun"></i>
-                    <p>Cloud-Sun</p>
+                    <p>i-Cloud-Sun</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Cloud-Weather"></i>
-                    <p>Cloud-Weather</p>
+                    <p>i-Cloud-Weather</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Clouds-Weather"></i>
-                    <p>Clouds-Weather</p>
+                    <p>i-Clouds-Weather</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Drop"></i>
-                    <p>Drop</p>
+                    <p>i-Drop</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Dry"></i>
-                    <p>Dry</p>
+                    <p>i-Dry</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Fahrenheit"></i>
-                    <p>Fahrenheit</p>
+                    <p>i-Fahrenheit</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Film-Video"></i>
-                    <p>Film-Video</p>
+                    <p>i-Film-Video</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Film"></i>
-                    <p>Film</p>
+                    <p>i-Film</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Flash-Video"></i>
-                    <p>Flash-Video</p>
+                    <p>i-Flash-Video</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Movie"></i>
-                    <p>Movie</p>
+                    <p>i-Movie</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Old-TV"></i>
-                    <p>Old-TV</p>
+                    <p>i-Old-TV</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Video-2"></i>
-                    <p>Video-2</p>
+                    <p>i-Video-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Video-4"></i>
-                    <p>Video-4</p>
+                    <p>i-Video-4</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Video-5"></i>
-                    <p>Video-5</p>
+                    <p>i-Video-5</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Video"></i>
-                    <p>Video</p>
+                    <p>i-Video</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Billing"></i>
-                    <p>Billing</p>
+                    <p>i-Billing</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Crop-2"></i>
-                    <p>Crop-2</p>
+                    <p>i-Crop-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Dashboard"></i>
-                    <p>Dashboard</p>
+                    <p>i-Dashboard</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Duplicate-Layer"></i>
-                    <p>Duplicate-Layer</p>
+                    <p>i-Duplicate-Layer</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Filter-2"></i>
-                    <p>Filter-2</p>
+                    <p>i-Filter-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Gear-2"></i>
-                    <p>Gear-2</p>
+                    <p>i-Gear-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Gear"></i>
-                    <p>Gear</p>
+                    <p>i-Gear</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Gears"></i>
-                    <p>Gears</p>
+                    <p>i-Gears</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Information"></i>
-                    <p>Information</p>
+                    <p>i-Information</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Library"></i>
-                    <p>Library</p>
+                    <p>i-Library</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Loading-3"></i>
-                    <p>Loading-3</p>
+                    <p>i-Loading-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Loading"></i>
-                    <p>Loading</p>
+                    <p>i-Loading</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Magnifi-Glass"></i>
-                    <p>Magnifi-Glass</p>
+                    <p>i-Magnifi-Glass</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Magnifi-Glass-"></i>
-                    <p>Magnifi-Glass-</p>
+                    <p>i-Magnifi-Glass-</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Magnifi-Glass1"></i>
-                    <p>Magnifi-Glass1</p>
+                    <p>i-Magnifi-Glass1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Share"></i>
-                    <p>Share</p>
+                    <p>i-Share</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Statistic"></i>
-                    <p>Statistic</p>
+                    <p>i-Statistic</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Support"></i>
-                    <p>Support</p>
+                    <p>i-Support</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Bicycle"></i>
-                    <p>Bicycle</p>
+                    <p>i-Bicycle</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Car-2"></i>
-                    <p>Car-2</p>
+                    <p>i-Car-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Jeep-2"></i>
-                    <p>Jeep-2</p>
+                    <p>i-Jeep-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Jeep"></i>
-                    <p>Jeep</p>
+                    <p>i-Jeep</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Jet"></i>
-                    <p>Jet</p>
+                    <p>i-Jet</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Motorcycle"></i>
-                    <p>Motorcycle</p>
+                    <p>i-Motorcycle</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Plane-2"></i>
-                    <p>Plane-2</p>
+                    <p>i-Plane-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Plane"></i>
-                    <p>Plane</p>
+                    <p>i-Plane</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Road-2"></i>
-                    <p>Road-2</p>
+                    <p>i-Road-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Double-Tap"></i>
-                    <p>Double-Tap</p>
+                    <p>i-Double-Tap</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Drag"></i>
-                    <p>Drag</p>
+                    <p>i-Drag</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Clock-3"></i>
-                    <p>Clock-3</p>
+                    <p>i-Clock-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Clock-4"></i>
-                    <p>Clock-4</p>
+                    <p>i-Clock-4</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Clock-Back"></i>
-                    <p>Clock-Back</p>
+                    <p>i-Clock-Back</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Clock-Forward"></i>
-                    <p>Clock-Forward</p>
+                    <p>i-Clock-Forward</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Clock"></i>
-                    <p>Clock</p>
+                    <p>i-Clock</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Over-Time-2"></i>
-                    <p>Over-Time-2</p>
+                    <p>i-Over-Time-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Over-Time"></i>
-                    <p>Over-Time</p>
+                    <p>i-Over-Time</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Sand-watch-2"></i>
-                    <p>Sand-watch-2</p>
+                    <p>i-Sand-watch-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Sand-watch"></i>
-                    <p>Sand-watch</p>
+                    <p>i-Sand-watch</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Stopwatch"></i>
-                    <p>Stopwatch</p>
+                    <p>i-Stopwatch</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Medal-2"></i>
-                    <p>Medal-2</p>
+                    <p>i-Medal-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Medal-3"></i>
-                    <p>Medal-3</p>
+                    <p>i-Medal-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Speach-Bubble-3"></i>
-                    <p>Speach-Bubble-3</p>
+                    <p>i-Speach-Bubble-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Speach-Bubble-6"></i>
-                    <p>Speach-Bubble-6</p>
+                    <p>i-Speach-Bubble-6</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Speach-Bubble-8"></i>
-                    <p>Speach-Bubble-8</p>
+                    <p>i-Speach-Bubble-8</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Speach-Bubble-11"></i>
-                    <p>Speach-Bubble-11</p>
+                    <p>i-Speach-Bubble-11</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Speach-Bubble-12"></i>
-                    <p>Speach-Bubble-12</p>
+                    <p>i-Speach-Bubble-12</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Speach-Bubble-13"></i>
-                    <p>Speach-Bubble-13</p>
+                    <p>i-Speach-Bubble-13</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Speach-Bubble-Asking"></i>
-                    <p>Speach-Bubble-Asking</p>
+                    <p>i-Speach-Bubble-Asking</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Speach-Bubbles"></i>
-                    <p>Speach-Bubbles</p>
+                    <p>i-Speach-Bubbles</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Bebo"></i>
-                    <p>Bebo</p>
+                    <p>i-Bebo</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Behance"></i>
-                    <p>Behance</p>
+                    <p>i-Behance</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Betvibes"></i>
-                    <p>Betvibes</p>
+                    <p>i-Betvibes</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Bing"></i>
-                    <p>Bing</p>
+                    <p>i-Bing</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Blinklist"></i>
-                    <p>Blinklist</p>
+                    <p>i-Blinklist</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Blogger"></i>
-                    <p>Blogger</p>
+                    <p>i-Blogger</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Brightkite"></i>
-                    <p>Brightkite</p>
+                    <p>i-Brightkite</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Digg"></i>
-                    <p>Digg</p>
+                    <p>i-Digg</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Doplr"></i>
-                    <p>Doplr</p>
+                    <p>i-Doplr</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Dribble"></i>
-                    <p>Dribble</p>
+                    <p>i-Dribble</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Email"></i>
-                    <p>Email</p>
+                    <p>i-Email</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Evernote"></i>
-                    <p>Evernote</p>
+                    <p>i-Evernote</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Facebook-2"></i>
-                    <p>Facebook-2</p>
+                    <p>i-Facebook-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Facebook"></i>
-                    <p>Facebook</p>
+                    <p>i-Facebook</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Friendster"></i>
-                    <p>Friendster</p>
+                    <p>i-Friendster</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Furl"></i>
-                    <p>Furl</p>
+                    <p>i-Furl</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Google-Plus"></i>
-                    <p>Google-Plus</p>
+                    <p>i-Google-Plus</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Google"></i>
-                    <p>Google</p>
+                    <p>i-Google</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-ImDB"></i>
-                    <p>ImDB</p>
+                    <p>i-ImDB</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Instagram"></i>
-                    <p>Instagram</p>
+                    <p>i-Instagram</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Like-2"></i>
-                    <p>Like-2</p>
+                    <p>i-Like-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Like"></i>
-                    <p>Like</p>
+                    <p>i-Like</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Linkedin-2"></i>
-                    <p>Linkedin-2</p>
+                    <p>i-Linkedin-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Linkedin"></i>
-                    <p>Linkedin</p>
+                    <p>i-Linkedin</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Picasa"></i>
-                    <p>Picasa</p>
+                    <p>i-Picasa</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Pinterest"></i>
-                    <p>Pinterest</p>
+                    <p>i-Pinterest</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Plaxo"></i>
-                    <p>Plaxo</p>
+                    <p>i-Plaxo</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Posterous"></i>
-                    <p>Posterous</p>
+                    <p>i-Posterous</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-QIK"></i>
-                    <p>QIK</p>
+                    <p>i-QIK</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Reddit"></i>
-                    <p>Reddit</p>
+                    <p>i-Reddit</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Reverbnation"></i>
-                    <p>Reverbnation</p>
+                    <p>i-Reverbnation</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-RSS"></i>
-                    <p>RSS</p>
+                    <p>i-RSS</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Skype"></i>
-                    <p>Skype</p>
+                    <p>i-Skype</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Tumblr"></i>
-                    <p>Tumblr</p>
+                    <p>i-Tumblr</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Twitter-2"></i>
-                    <p>Twitter-2</p>
+                    <p>i-Twitter-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Twitter"></i>
-                    <p>Twitter</p>
+                    <p>i-Twitter</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Unlike-2"></i>
-                    <p>Unlike-2</p>
+                    <p>i-Unlike-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Unlike"></i>
-                    <p>Unlike</p>
+                    <p>i-Unlike</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Vimeo"></i>
-                    <p>Vimeo</p>
+                    <p>i-Vimeo</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Wordpress"></i>
-                    <p>Wordpress</p>
+                    <p>i-Wordpress</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Yahoo"></i>
-                    <p>Yahoo</p>
+                    <p>i-Yahoo</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Youtube"></i>
-                    <p>Youtube</p>
+                    <p>i-Youtube</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Bisexual"></i>
-                    <p>Bisexual</p>
+                    <p>i-Bisexual</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Female-2"></i>
-                    <p>Female-2</p>
+                    <p>i-Female-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Gey"></i>
-                    <p>Gey</p>
+                    <p>i-Gey</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Heart"></i>
-                    <p>Heart</p>
+                    <p>i-Heart</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Homosexual"></i>
-                    <p>Homosexual</p>
+                    <p>i-Homosexual</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Inifity"></i>
-                    <p>Inifity</p>
+                    <p>i-Inifity</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Male-2"></i>
-                    <p>Male-2</p>
+                    <p>i-Male-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Men"></i>
-                    <p>Men</p>
+                    <p>i-Men</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Quotes-2"></i>
-                    <p>Quotes-2</p>
+                    <p>i-Quotes-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Quotes"></i>
-                    <p>Quotes</p>
+                    <p>i-Quotes</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Add-Cart"></i>
-                    <p>Add-Cart</p>
+                    <p>i-Add-Cart</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Bag-Coins"></i>
-                    <p>Bag-Coins</p>
+                    <p>i-Bag-Coins</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Bag-Items"></i>
-                    <p>Bag-Items</p>
+                    <p>i-Bag-Items</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Bar-Code"></i>
-                    <p>Bar-Code</p>
+                    <p>i-Bar-Code</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Bitcoin"></i>
-                    <p>Bitcoin</p>
+                    <p>i-Bitcoin</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Car-Coins"></i>
-                    <p>Car-Coins</p>
+                    <p>i-Car-Coins</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Car-Items"></i>
-                    <p>Car-Items</p>
+                    <p>i-Car-Items</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Cart-Quantity"></i>
-                    <p>Cart-Quantity</p>
+                    <p>i-Cart-Quantity</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Cash-register-2"></i>
-                    <p>Cash-register-2</p>
+                    <p>i-Cash-register-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Cash-Register"></i>
-                    <p>Cash-Register</p>
+                    <p>i-Cash-Register</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Checkout-Bag"></i>
-                    <p>Checkout-Bag</p>
+                    <p>i-Checkout-Bag</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Checkout-Basket"></i>
-                    <p>Checkout-Basket</p>
+                    <p>i-Checkout-Basket</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Checkout"></i>
-                    <p>Checkout</p>
+                    <p>i-Checkout</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Full-Basket"></i>
-                    <p>Full-Basket</p>
+                    <p>i-Full-Basket</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Full-Cart"></i>
-                    <p>Full-Cart</p>
+                    <p>i-Full-Cart</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Password-shopping"></i>
-                    <p>Password-shopping</p>
+                    <p>i-Password-shopping</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Receipt-3"></i>
-                    <p>Receipt-3</p>
+                    <p>i-Receipt-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Receipt-4"></i>
-                    <p>Receipt-4</p>
+                    <p>i-Receipt-4</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Receipt"></i>
-                    <p>Receipt</p>
+                    <p>i-Receipt</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Remove-Bag"></i>
-                    <p>Remove-Bag</p>
+                    <p>i-Remove-Bag</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Remove-Basket"></i>
-                    <p>Remove-Basket</p>
+                    <p>i-Remove-Basket</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Remove-Cart"></i>
-                    <p>Remove-Cart</p>
+                    <p>i-Remove-Cart</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Shop-2"></i>
-                    <p>Shop-2</p>
+                    <p>i-Shop-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Shop-3"></i>
-                    <p>Shop-3</p>
+                    <p>i-Shop-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Shop-4"></i>
-                    <p>Shop-4</p>
+                    <p>i-Shop-4</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Shop"></i>
-                    <p>Shop</p>
+                    <p>i-Shop</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Shopping-Bag"></i>
-                    <p>Shopping-Bag</p>
+                    <p>i-Shopping-Bag</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Shopping-Basket"></i>
-                    <p>Shopping-Basket</p>
+                    <p>i-Shopping-Basket</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Shopping-Cart"></i>
-                    <p>Shopping-Cart</p>
+                    <p>i-Shopping-Cart</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Tag-2"></i>
-                    <p>Tag-2</p>
+                    <p>i-Tag-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Tag-3"></i>
-                    <p>Tag-3</p>
+                    <p>i-Tag-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Tag-4"></i>
-                    <p>Tag-4</p>
+                    <p>i-Tag-4</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Tag-5"></i>
-                    <p>Tag-5</p>
+                    <p>i-Tag-5</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Broke-Link-2"></i>
-                    <p>Broke-Link-2</p>
+                    <p>i-Broke-Link-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Coding"></i>
-                    <p>Coding</p>
+                    <p>i-Coding</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Consulting"></i>
-                    <p>Consulting</p>
+                    <p>i-Consulting</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Copyright"></i>
-                    <p>Copyright</p>
+                    <p>i-Copyright</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Idea-2"></i>
-                    <p>Idea-2</p>
+                    <p>i-Idea-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Idea-3"></i>
-                    <p>Idea-3</p>
+                    <p>i-Idea-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Internet-2"></i>
-                    <p>Internet-2</p>
+                    <p>i-Internet-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Internet"></i>
-                    <p>Internet</p>
+                    <p>i-Internet</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Link-2"></i>
-                    <p>Link-2</p>
+                    <p>i-Link-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Management"></i>
-                    <p>Management</p>
+                    <p>i-Management</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Tag"></i>
-                    <p>Tag</p>
+                    <p>i-Tag</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Target"></i>
-                    <p>Target</p>
+                    <p>i-Target</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Computer-Secure"></i>
-                    <p>Computer-Secure</p>
+                    <p>i-Computer-Secure</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Firewall"></i>
-                    <p>Firewall</p>
+                    <p>i-Firewall</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Laptop-Secure"></i>
-                    <p>Laptop-Secure</p>
+                    <p>i-Laptop-Secure</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Lock-2"></i>
-                    <p>Lock-2</p>
+                    <p>i-Lock-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Safe-Box"></i>
-                    <p>Safe-Box</p>
+                    <p>i-Safe-Box</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Security-Check"></i>
-                    <p>Security-Check</p>
+                    <p>i-Security-Check</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-SSL"></i>
-                    <p>SSL</p>
+                    <p>i-SSL</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Unlock-2"></i>
-                    <p>Unlock-2</p>
+                    <p>i-Unlock-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Ambulance"></i>
-                    <p>Ambulance</p>
+                    <p>i-Ambulance</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Atom"></i>
-                    <p>Atom</p>
+                    <p>i-Atom</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Cube-Molecule-2"></i>
-                    <p>Cube-Molecule-2</p>
+                    <p>i-Cube-Molecule-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Danger"></i>
-                    <p>Danger</p>
+                    <p>i-Danger</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-First-Aid"></i>
-                    <p>First-Aid</p>
+                    <p>i-First-Aid</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Medicine"></i>
-                    <p>Medicine</p>
+                    <p>i-Medicine</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Pulse"></i>
-                    <p>Pulse</p>
+                    <p>i-Pulse</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Stethoscope"></i>
-                    <p>Stethoscope</p>
+                    <p>i-Stethoscope</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Temperature1"></i>
-                    <p>Temperature1</p>
+                    <p>i-Temperature1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Camera"></i>
-                    <p>Camera</p>
+                    <p>i-Camera</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Edit"></i>
-                    <p>Edit</p>
+                    <p>i-Edit</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Eye"></i>
-                    <p>Eye</p>
+                    <p>i-Eye</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Flash-2"></i>
-                    <p>Flash-2</p>
+                    <p>i-Flash-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Flash"></i>
-                    <p>Flash</p>
+                    <p>i-Flash</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Landscape"></i>
-                    <p>Landscape</p>
+                    <p>i-Landscape</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Macro"></i>
-                    <p>Macro</p>
+                    <p>i-Macro</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Memory-Card-2"></i>
-                    <p>Memory-Card-2</p>
+                    <p>i-Memory-Card-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Memory-Card-3"></i>
-                    <p>Memory-Card-3</p>
+                    <p>i-Memory-Card-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Memory-Card"></i>
-                    <p>Memory-Card</p>
+                    <p>i-Memory-Card</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Shutter"></i>
-                    <p>Shutter</p>
+                    <p>i-Shutter</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Signal"></i>
-                    <p>Signal</p>
+                    <p>i-Signal</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Add-User"></i>
-                    <p>Add-User</p>
+                    <p>i-Add-User</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Add-UserStar"></i>
-                    <p>Add-UserStar</p>
+                    <p>i-Add-UserStar</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Administrator"></i>
-                    <p>Administrator</p>
+                    <p>i-Administrator</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Assistant"></i>
-                    <p>Assistant</p>
+                    <p>i-Assistant</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Boy"></i>
-                    <p>Boy</p>
+                    <p>i-Boy</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Business-Man"></i>
-                    <p>Business-Man</p>
+                    <p>i-Business-Man</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Business-ManWoman"></i>
-                    <p>Business-ManWoman</p>
+                    <p>i-Business-ManWoman</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Business-Mens"></i>
-                    <p>Business-Mens</p>
+                    <p>i-Business-Mens</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Business-Woman"></i>
-                    <p>Business-Woman</p>
+                    <p>i-Business-Woman</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Checked-User"></i>
-                    <p>Checked-User</p>
+                    <p>i-Checked-User</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Chef"></i>
-                    <p>Chef</p>
+                    <p>i-Chef</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Conference"></i>
-                    <p>Conference</p>
+                    <p>i-Conference</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Cool-Guy"></i>
-                    <p>Cool-Guy</p>
+                    <p>i-Cool-Guy</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Doctor"></i>
-                    <p>Doctor</p>
+                    <p>i-Doctor</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Engineering"></i>
-                    <p>Engineering</p>
+                    <p>i-Engineering</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Female-21"></i>
-                    <p>Female-21</p>
+                    <p>i-Female-21</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Female"></i>
-                    <p>Female</p>
+                    <p>i-Female</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Find-User"></i>
-                    <p>Find-User</p>
+                    <p>i-Find-User</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Geek"></i>
-                    <p>Geek</p>
+                    <p>i-Geek</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Girl"></i>
-                    <p>Girl</p>
+                    <p>i-Girl</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-ID-2"></i>
-                    <p>ID-2</p>
+                    <p>i-ID-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-ID-3"></i>
-                    <p>ID-3</p>
+                    <p>i-ID-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-ID-Card"></i>
-                    <p>ID-Card</p>
+                    <p>i-ID-Card</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Lock-User"></i>
-                    <p>Lock-User</p>
+                    <p>i-Lock-User</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Love-User"></i>
-                    <p>Love-User</p>
+                    <p>i-Love-User</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Male-21"></i>
-                    <p>Male-21</p>
+                    <p>i-Male-21</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Male"></i>
-                    <p>Male</p>
+                    <p>i-Male</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-MaleFemale"></i>
-                    <p>MaleFemale</p>
+                    <p>i-MaleFemale</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Man-Sign"></i>
-                    <p>Man-Sign</p>
+                    <p>i-Man-Sign</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Remove-User"></i>
-                    <p>Remove-User</p>
+                    <p>i-Remove-User</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Flag-2"></i>
-                    <p>Flag-2</p>
+                    <p>i-Flag-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Gift-Box"></i>
-                    <p>Gift-Box</p>
+                    <p>i-Gift-Box</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Key"></i>
-                    <p>Key</p>
+                    <p>i-Key</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Movie-Ticket"></i>
-                    <p>Movie-Ticket</p>
+                    <p>i-Movie-Ticket</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Paint-Brush"></i>
-                    <p>Paint-Brush</p>
+                    <p>i-Paint-Brush</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Paint-Bucket"></i>
-                    <p>Paint-Bucket</p>
+                    <p>i-Paint-Bucket</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Paper-Plane"></i>
-                    <p>Paper-Plane</p>
+                    <p>i-Paper-Plane</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Post-Sign-2-ways"></i>
-                    <p>Post-Sign-2-ways</p>
+                    <p>i-Post-Sign-2-ways</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Post-Sign"></i>
-                    <p>Post-Sign</p>
+                    <p>i-Post-Sign</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Suitcase"></i>
-                    <p>Suitcase</p>
+                    <p>i-Suitcase</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Ticket"></i>
-                    <p>Ticket</p>
+                    <p>i-Ticket</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Landscape1"></i>
-                    <p>Landscape1</p>
+                    <p>i-Landscape1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Recycling-2"></i>
-                    <p>Recycling-2</p>
+                    <p>i-Recycling-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Tree-3"></i>
-                    <p>Tree-3</p>
+                    <p>i-Tree-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Bell"></i>
-                    <p>Bell</p>
+                    <p>i-Bell</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-First"></i>
-                    <p>First</p>
+                    <p>i-First</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Keyboard3"></i>
-                    <p>Keyboard3</p>
+                    <p>i-Keyboard3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Last"></i>
-                    <p>Last</p>
+                    <p>i-Last</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Microphone-3"></i>
-                    <p>Microphone-3</p>
+                    <p>i-Microphone-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Music-Note-2"></i>
-                    <p>Music-Note-2</p>
+                    <p>i-Music-Note-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Next-Music"></i>
-                    <p>Next-Music</p>
+                    <p>i-Next-Music</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Play-Music"></i>
-                    <p>Play-Music</p>
+                    <p>i-Play-Music</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Stop-Music"></i>
-                    <p>Stop-Music</p>
+                    <p>i-Stop-Music</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Pause-2"></i>
-                    <p>Pause-2</p>
+                    <p>i-Pause-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Pause"></i>
-                    <p>Pause</p>
+                    <p>i-Pause</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Power-2"></i>
-                    <p>Power-2</p>
+                    <p>i-Power-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Record-2"></i>
-                    <p>Record-2</p>
+                    <p>i-Record-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Repeat-2"></i>
-                    <p>Repeat-2</p>
+                    <p>i-Repeat-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Shuffle-2"></i>
-                    <p>Shuffle-2</p>
+                    <p>i-Shuffle-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Start-2"></i>
-                    <p>Start-2</p>
+                    <p>i-Start-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Start"></i>
-                    <p>Start</p>
+                    <p>i-Start</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Stop-2"></i>
-                    <p>Stop-2</p>
+                    <p>i-Stop-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Compass-2"></i>
-                    <p>Compass-2</p>
+                    <p>i-Compass-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Edit-Map"></i>
-                    <p>Edit-Map</p>
+                    <p>i-Edit-Map</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Geo2-"></i>
-                    <p>Geo2-</p>
+                    <p>i-Geo2-</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Geo21"></i>
-                    <p>Geo21</p>
+                    <p>i-Geo21</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Globe"></i>
-                    <p>Globe</p>
+                    <p>i-Globe</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Map-Marker"></i>
-                    <p>Map-Marker</p>
+                    <p>i-Map-Marker</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Map"></i>
-                    <p>Map</p>
+                    <p>i-Map</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Map2"></i>
-                    <p>Map2</p>
+                    <p>i-Map2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Android-Store"></i>
-                    <p>Android-Store</p>
+                    <p>i-Android-Store</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Box1"></i>
-                    <p>Box1</p>
+                    <p>i-Box1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Dropbox"></i>
-                    <p>Dropbox</p>
+                    <p>i-Dropbox</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Google-Drive"></i>
-                    <p>Google-Drive</p>
+                    <p>i-Google-Drive</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-X-Box"></i>
-                    <p>X-Box</p>
+                    <p>i-X-Box</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Add"></i>
-                    <p>Add</p>
+                    <p>i-Add</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Back1"></i>
-                    <p>Back1</p>
+                    <p>i-Back1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Broken-Link"></i>
-                    <p>Broken-Link</p>
+                    <p>i-Broken-Link</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Check"></i>
-                    <p>Check</p>
+                    <p>i-Check</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Circular-Point"></i>
-                    <p>Circular-Point</p>
+                    <p>i-Circular-Point</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Close"></i>
-                    <p>Close</p>
+                    <p>i-Close</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Cursor-Click-2"></i>
-                    <p>Cursor-Click-2</p>
+                    <p>i-Cursor-Click-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Cursor-Click"></i>
-                    <p>Cursor-Click</p>
+                    <p>i-Cursor-Click</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Cursor-Move-2"></i>
-                    <p>Cursor-Move-2</p>
+                    <p>i-Cursor-Move-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Cursor-Select"></i>
-                    <p>Cursor-Select</p>
+                    <p>i-Cursor-Select</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Cursor"></i>
-                    <p>Cursor</p>
+                    <p>i-Cursor</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Down"></i>
-                    <p>Down</p>
+                    <p>i-Down</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Download"></i>
-                    <p>Download</p>
+                    <p>i-Download</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Endways"></i>
-                    <p>Endways</p>
+                    <p>i-Endways</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Left"></i>
-                    <p>Left</p>
+                    <p>i-Left</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Link"></i>
-                    <p>Link</p>
+                    <p>i-Link</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Next1"></i>
-                    <p>Next1</p>
+                    <p>i-Next1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Pointer"></i>
-                    <p>Pointer</p>
+                    <p>i-Pointer</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Previous"></i>
-                    <p>Previous</p>
+                    <p>i-Previous</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Reload"></i>
-                    <p>Reload</p>
+                    <p>i-Reload</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Remove"></i>
-                    <p>Remove</p>
+                    <p>i-Remove</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Rewind"></i>
-                    <p>Rewind</p>
+                    <p>i-Rewind</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Right"></i>
-                    <p>Right</p>
+                    <p>i-Right</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Up"></i>
-                    <p>Up</p>
+                    <p>i-Up</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Upload"></i>
-                    <p>Upload</p>
+                    <p>i-Upload</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Upward"></i>
-                    <p>Upward</p>
+                    <p>i-Upward</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Yes"></i>
-                    <p>Yes</p>
+                    <p>i-Yes</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Disk"></i>
-                    <p>Disk</p>
+                    <p>i-Disk</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Folder-Cloud"></i>
-                    <p>Folder-Cloud</p>
+                    <p>i-Folder-Cloud</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Folder-Delete"></i>
-                    <p>Folder-Delete</p>
+                    <p>i-Folder-Delete</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Folder-Download"></i>
-                    <p>Folder-Download</p>
+                    <p>i-Folder-Download</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Folder-Hide"></i>
-                    <p>Folder-Hide</p>
+                    <p>i-Folder-Hide</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Folder-Lock"></i>
-                    <p>Folder-Lock</p>
+                    <p>i-Folder-Lock</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Folder-Trash"></i>
-                    <p>Folder-Trash</p>
+                    <p>i-Folder-Trash</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Folder-Zip"></i>
-                    <p>Folder-Zip</p>
+                    <p>i-Folder-Zip</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Folder"></i>
-                    <p>Folder</p>
+                    <p>i-Folder</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Folders"></i>
-                    <p>Folders</p>
+                    <p>i-Folders</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Add-File"></i>
-                    <p>Add-File</p>
+                    <p>i-Add-File</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Delete-File"></i>
-                    <p>Delete-File</p>
+                    <p>i-Delete-File</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-Block"></i>
-                    <p>File-Block</p>
+                    <p>i-File-Block</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-Chart"></i>
-                    <p>File-Chart</p>
+                    <p>i-File-Chart</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-Clipboard-File--Text"></i>
-                    <p>File-Clipboard-File--Text</p>
+                    <p>i-File-Clipboard-File--Text</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-Clipboard-Text--Image"></i>
-                    <p>File-Clipboard-Text--Image</p>
+                    <p>i-File-Clipboard-Text--Image</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-Cloud"></i>
-                    <p>File-Cloud</p>
+                    <p>i-File-Cloud</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-Copy-2"></i>
-                    <p>File-Copy-2</p>
+                    <p>i-File-Copy-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-Copy"></i>
-                    <p>File-Copy</p>
+                    <p>i-File-Copy</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-CSV"></i>
-                    <p>File-CSV</p>
+                    <p>i-File-CSV</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-Download"></i>
-                    <p>File-Download</p>
+                    <p>i-File-Download</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-Edit"></i>
-                    <p>File-Edit</p>
+                    <p>i-File-Edit</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-Excel"></i>
-                    <p>File-Excel</p>
+                    <p>i-File-Excel</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-Hide"></i>
-                    <p>File-Hide</p>
+                    <p>i-File-Hide</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-Horizontal-Text"></i>
-                    <p>File-Horizontal-Text</p>
+                    <p>i-File-Horizontal-Text</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-Horizontal"></i>
-                    <p>File-Horizontal</p>
+                    <p>i-File-Horizontal</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-HTML"></i>
-                    <p>File-HTML</p>
+                    <p>i-File-HTML</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-JPG"></i>
-                    <p>File-JPG</p>
+                    <p>i-File-JPG</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-Link"></i>
-                    <p>File-Link</p>
+                    <p>i-File-Link</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-Pictures"></i>
-                    <p>File-Pictures</p>
+                    <p>i-File-Pictures</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-Refresh"></i>
-                    <p>File-Refresh</p>
+                    <p>i-File-Refresh</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-Search"></i>
-                    <p>File-Search</p>
+                    <p>i-File-Search</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-TXT"></i>
-                    <p>File-TXT</p>
+                    <p>i-File-TXT</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-Video"></i>
-                    <p>File-Video</p>
+                    <p>i-File-Video</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-Word"></i>
-                    <p>File-Word</p>
+                    <p>i-File-Word</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File-Zip"></i>
-                    <p>File-Zip</p>
+                    <p>i-File-Zip</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-File"></i>
-                    <p>File</p>
+                    <p>i-File</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Files"></i>
-                    <p>Files</p>
+                    <p>i-Files</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Remove-File"></i>
-                    <p>Remove-File</p>
+                    <p>i-Remove-File</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Angry"></i>
-                    <p>Angry</p>
+                    <p>i-Angry</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Depression"></i>
-                    <p>Depression</p>
+                    <p>i-Depression</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Eyeglasses-Smiley-2"></i>
-                    <p>Eyeglasses-Smiley-2</p>
+                    <p>i-Eyeglasses-Smiley-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Eyeglasses-Smiley"></i>
-                    <p>Eyeglasses-Smiley</p>
+                    <p>i-Eyeglasses-Smiley</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Happy"></i>
-                    <p>Happy</p>
+                    <p>i-Happy</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Humor"></i>
-                    <p>Humor</p>
+                    <p>i-Humor</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Love1"></i>
-                    <p>Love1</p>
+                    <p>i-Love1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Money"></i>
-                    <p>Money</p>
+                    <p>i-Money</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Smile"></i>
-                    <p>Smile</p>
+                    <p>i-Smile</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Surprise"></i>
-                    <p>Surprise</p>
+                    <p>i-Surprise</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Thumbs-Down-Smiley"></i>
-                    <p>Thumbs-Down-Smiley</p>
+                    <p>i-Thumbs-Down-Smiley</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Thumbs-Up-Smiley"></i>
-                    <p>Thumbs-Up-Smiley</p>
+                    <p>i-Thumbs-Up-Smiley</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Tongue"></i>
-                    <p>Tongue</p>
+                    <p>i-Tongue</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-At-Sign"></i>
-                    <p>At-Sign</p>
+                    <p>i-At-Sign</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Box-Full"></i>
-                    <p>Box-Full</p>
+                    <p>i-Box-Full</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Empty-Box"></i>
-                    <p>Empty-Box</p>
+                    <p>i-Empty-Box</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Envelope-2"></i>
-                    <p>Envelope-2</p>
+                    <p>i-Envelope-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Envelope"></i>
-                    <p>Envelope</p>
+                    <p>i-Envelope</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Inbox-Empty"></i>
-                    <p>Inbox-Empty</p>
+                    <p>i-Inbox-Empty</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Inbox-Into"></i>
-                    <p>Inbox-Into</p>
+                    <p>i-Inbox-Into</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Inbox-Out"></i>
-                    <p>Inbox-Out</p>
+                    <p>i-Inbox-Out</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Letter-Close"></i>
-                    <p>Letter-Close</p>
+                    <p>i-Letter-Close</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Letter-Open"></i>
-                    <p>Letter-Open</p>
+                    <p>i-Letter-Open</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Letter-Sent"></i>
-                    <p>Letter-Sent</p>
+                    <p>i-Letter-Sent</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Mail-2"></i>
-                    <p>Mail-2</p>
+                    <p>i-Mail-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Mail-3"></i>
-                    <p>Mail-3</p>
+                    <p>i-Mail-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Mail-Add-"></i>
-                    <p>Mail-Add-</p>
+                    <p>i-Mail-Add-</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Mail-Attachement"></i>
-                    <p>Mail-Attachement</p>
+                    <p>i-Mail-Attachement</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Mail-Delete"></i>
-                    <p>Mail-Delete</p>
+                    <p>i-Mail-Delete</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Mail-Favorite"></i>
-                    <p>Mail-Favorite</p>
+                    <p>i-Mail-Favorite</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Mail-Open"></i>
-                    <p>Mail-Open</p>
+                    <p>i-Mail-Open</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Mail-Outbox"></i>
-                    <p>Mail-Outbox</p>
+                    <p>i-Mail-Outbox</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Mail-Password"></i>
-                    <p>Mail-Password</p>
+                    <p>i-Mail-Password</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Mail-Read"></i>
-                    <p>Mail-Read</p>
+                    <p>i-Mail-Read</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Mail-Remove-x"></i>
-                    <p>Mail-Remove-x</p>
+                    <p>i-Mail-Remove-x</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Mail-Reply-All"></i>
-                    <p>Mail-Reply-All</p>
+                    <p>i-Mail-Reply-All</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Mail-Reply"></i>
-                    <p>Mail-Reply</p>
+                    <p>i-Mail-Reply</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Mail-Search"></i>
-                    <p>Mail-Search</p>
+                    <p>i-Mail-Search</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Mail-Send"></i>
-                    <p>Mail-Send</p>
+                    <p>i-Mail-Send</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Mail-Video"></i>
-                    <p>Mail-Video</p>
+                    <p>i-Mail-Video</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Mail-with-At-Sign"></i>
-                    <p>Mail-with-At-Sign</p>
+                    <p>i-Mail-with-At-Sign</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Mail"></i>
-                    <p>Mail</p>
+                    <p>i-Mail</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Mailbox-Empty"></i>
-                    <p>Mailbox-Empty</p>
+                    <p>i-Mailbox-Empty</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Spam-Mail"></i>
-                    <p>Spam-Mail</p>
+                    <p>i-Spam-Mail</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Book"></i>
-                    <p>Book</p>
+                    <p>i-Book</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Bookmark"></i>
-                    <p>Bookmark</p>
+                    <p>i-Bookmark</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Diploma-2"></i>
-                    <p>Diploma-2</p>
+                    <p>i-Diploma-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Pen-2"></i>
-                    <p>Pen-2</p>
+                    <p>i-Pen-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Pen-3"></i>
-                    <p>Pen-3</p>
+                    <p>i-Pen-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Pen-4"></i>
-                    <p>Pen-4</p>
+                    <p>i-Pen-4</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Pen-5"></i>
-                    <p>Pen-5</p>
+                    <p>i-Pen-5</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Student-Hat-2"></i>
-                    <p>Student-Hat-2</p>
+                    <p>i-Student-Hat-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-University"></i>
-                    <p>University</p>
+                    <p>i-University</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Computer-2"></i>
-                    <p>Computer-2</p>
+                    <p>i-Computer-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Monitor-2"></i>
-                    <p>Monitor-2</p>
+                    <p>i-Monitor-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Monitor-3"></i>
-                    <p>Monitor-3</p>
+                    <p>i-Monitor-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Monitor-5"></i>
-                    <p>Monitor-5</p>
+                    <p>i-Monitor-5</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Monitor-Vertical"></i>
-                    <p>Monitor-Vertical</p>
+                    <p>i-Monitor-Vertical</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Orientation-2"></i>
-                    <p>Orientation-2</p>
+                    <p>i-Orientation-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Brush"></i>
-                    <p>Brush</p>
+                    <p>i-Brush</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-CMYK"></i>
-                    <p>CMYK</p>
+                    <p>i-CMYK</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Big-Data"></i>
-                    <p>Big-Data</p>
+                    <p>i-Big-Data</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Data-Backup"></i>
-                    <p>Data-Backup</p>
+                    <p>i-Data-Backup</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Data-Block"></i>
-                    <p>Data-Block</p>
+                    <p>i-Data-Block</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Data-Center"></i>
-                    <p>Data-Center</p>
+                    <p>i-Data-Center</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Data-Clock"></i>
-                    <p>Data-Clock</p>
+                    <p>i-Data-Clock</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Data-Cloud"></i>
-                    <p>Data-Cloud</p>
+                    <p>i-Data-Cloud</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Data-Compress"></i>
-                    <p>Data-Compress</p>
+                    <p>i-Data-Compress</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Data-Copy"></i>
-                    <p>Data-Copy</p>
+                    <p>i-Data-Copy</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Data-Download"></i>
-                    <p>Data-Download</p>
+                    <p>i-Data-Download</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Data-Power"></i>
-                    <p>Data-Power</p>
+                    <p>i-Data-Power</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Data-Refresh"></i>
-                    <p>Data-Refresh</p>
+                    <p>i-Data-Refresh</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Data-Save"></i>
-                    <p>Data-Save</p>
+                    <p>i-Data-Save</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Data-Search"></i>
-                    <p>Data-Search</p>
+                    <p>i-Data-Search</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Data-Security"></i>
-                    <p>Data-Security</p>
+                    <p>i-Data-Security</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Data-Settings"></i>
-                    <p>Data-Settings</p>
+                    <p>i-Data-Settings</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Data-Sharing"></i>
-                    <p>Data-Sharing</p>
+                    <p>i-Data-Sharing</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Data-Shield"></i>
-                    <p>Data-Shield</p>
+                    <p>i-Data-Shield</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Data-Storage"></i>
-                    <p>Data-Storage</p>
+                    <p>i-Data-Storage</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Data-Stream"></i>
-                    <p>Data-Stream</p>
+                    <p>i-Data-Stream</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Data"></i>
-                    <p>Data</p>
+                    <p>i-Data</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Address-Book"></i>
-                    <p>Address-Book</p>
+                    <p>i-Address-Book</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Newspaper"></i>
-                    <p>Newspaper</p>
+                    <p>i-Newspaper</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Router-2"></i>
-                    <p>Router-2</p>
+                    <p>i-Router-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Telephone"></i>
-                    <p>Telephone</p>
+                    <p>i-Telephone</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Wifi"></i>
-                    <p>Wifi</p>
+                    <p>i-Wifi</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Block-Cloud"></i>
-                    <p>Block-Cloud</p>
+                    <p>i-Block-Cloud</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Cloud"></i>
-                    <p>Cloud</p>
+                    <p>i-Cloud</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Cloud-"></i>
-                    <p>Cloud-</p>
+                    <p>i-Cloud-</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Cloud-Email"></i>
-                    <p>Cloud-Email</p>
+                    <p>i-Cloud-Email</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Cloud-Laptop"></i>
-                    <p>Cloud-Laptop</p>
+                    <p>i-Cloud-Laptop</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Cloud1"></i>
-                    <p>Cloud1</p>
+                    <p>i-Cloud1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Clouds"></i>
-                    <p>Clouds</p>
+                    <p>i-Clouds</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Download-from-Cloud"></i>
-                    <p>Download-from-Cloud</p>
+                    <p>i-Download-from-Cloud</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Search-on-Cloud"></i>
-                    <p>Search-on-Cloud</p>
+                    <p>i-Search-on-Cloud</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Share-on-Cloud"></i>
-                    <p>Share-on-Cloud</p>
+                    <p>i-Share-on-Cloud</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Belt-3"></i>
-                    <p>Belt-3</p>
+                    <p>i-Belt-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Dec"></i>
-                    <p>Dec</p>
+                    <p>i-Dec</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Bow1"></i>
-                    <p>Bow1</p>
+                    <p>i-Bow1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Christmas-Bell"></i>
-                    <p>Christmas-Bell</p>
+                    <p>i-Christmas-Bell</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Christmas-Candle"></i>
-                    <p>Christmas-Candle</p>
+                    <p>i-Christmas-Candle</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Bar-Chart-2"></i>
-                    <p>Bar-Chart-2</p>
+                    <p>i-Bar-Chart-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Bar-Chart-3"></i>
-                    <p>Bar-Chart-3</p>
+                    <p>i-Bar-Chart-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Bar-Chart-4"></i>
-                    <p>Bar-Chart-4</p>
+                    <p>i-Bar-Chart-4</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Bar-Chart-5"></i>
-                    <p>Bar-Chart-5</p>
+                    <p>i-Bar-Chart-5</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Bar-Chart"></i>
-                    <p>Bar-Chart</p>
+                    <p>i-Bar-Chart</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Calculator-2"></i>
-                    <p>Calculator-2</p>
+                    <p>i-Calculator-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Calendar-2"></i>
-                    <p>Calendar-2</p>
+                    <p>i-Calendar-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Calendar-3"></i>
-                    <p>Calendar-3</p>
+                    <p>i-Calendar-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Calendar-4"></i>
-                    <p>Calendar-4</p>
+                    <p>i-Calendar-4</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Calendar"></i>
-                    <p>Calendar</p>
+                    <p>i-Calendar</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Coins"></i>
-                    <p>Coins</p>
+                    <p>i-Coins</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Credit-Card"></i>
-                    <p>Credit-Card</p>
+                    <p>i-Credit-Card</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Dollar-Sign-2"></i>
-                    <p>Dollar-Sign-2</p>
+                    <p>i-Dollar-Sign-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Dollar-Sign"></i>
-                    <p>Dollar-Sign</p>
+                    <p>i-Dollar-Sign</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Dollar"></i>
-                    <p>Dollar</p>
+                    <p>i-Dollar</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Euro-Sign-2"></i>
-                    <p>Euro-Sign-2</p>
+                    <p>i-Euro-Sign-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Euro-Sign"></i>
-                    <p>Euro-Sign</p>
+                    <p>i-Euro-Sign</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Euro"></i>
-                    <p>Euro</p>
+                    <p>i-Euro</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Financial"></i>
-                    <p>Financial</p>
+                    <p>i-Financial</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Line-Chart-2"></i>
-                    <p>Line-Chart-2</p>
+                    <p>i-Line-Chart-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Line-Chart"></i>
-                    <p>Line-Chart</p>
+                    <p>i-Line-Chart</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Money-2"></i>
-                    <p>Money-2</p>
+                    <p>i-Money-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Money-Bag"></i>
-                    <p>Money-Bag</p>
+                    <p>i-Money-Bag</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Money1"></i>
-                    <p>Money1</p>
+                    <p>i-Money1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Pie-Chart-2"></i>
-                    <p>Pie-Chart-2</p>
+                    <p>i-Pie-Chart-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Pie-Chart-3"></i>
-                    <p>Pie-Chart-3</p>
+                    <p>i-Pie-Chart-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Pie-Chart"></i>
-                    <p>Pie-Chart</p>
+                    <p>i-Pie-Chart</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Pound-Sign"></i>
-                    <p>Pound-Sign</p>
+                    <p>i-Pound-Sign</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Pound"></i>
-                    <p>Pound</p>
+                    <p>i-Pound</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Safe-Box1"></i>
-                    <p>Safe-Box1</p>
+                    <p>i-Safe-Box1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Token-"></i>
-                    <p>Token-</p>
+                    <p>i-Token-</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Visa"></i>
-                    <p>Visa</p>
+                    <p>i-Visa</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Wallet"></i>
-                    <p>Wallet</p>
+                    <p>i-Wallet</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Building"></i>
-                    <p>Building</p>
+                    <p>i-Building</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Clothing-Store"></i>
-                    <p>Clothing-Store</p>
+                    <p>i-Clothing-Store</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Door"></i>
-                    <p>Door</p>
+                    <p>i-Door</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Home-4"></i>
-                    <p>Home-4</p>
+                    <p>i-Home-4</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Home1"></i>
-                    <p>Home1</p>
+                    <p>i-Home1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-University1"></i>
-                    <p>University1</p>
+                    <p>i-University1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Window"></i>
-                    <p>Window</p>
+                    <p>i-Window</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Android"></i>
-                    <p>Android</p>
+                    <p>i-Android</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Chrome"></i>
-                    <p>Chrome</p>
+                    <p>i-Chrome</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Debian"></i>
-                    <p>Debian</p>
+                    <p>i-Debian</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Firefox"></i>
-                    <p>Firefox</p>
+                    <p>i-Firefox</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Internet-Explorer"></i>
-                    <p>Internet-Explorer</p>
+                    <p>i-Internet-Explorer</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-iOS-Apple"></i>
-                    <p>iOS-Apple</p>
+                    <p>i-iOS-Apple</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Linux"></i>
-                    <p>Linux</p>
+                    <p>i-Linux</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Netscape"></i>
-                    <p>Netscape</p>
+                    <p>i-Netscape</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Opera"></i>
-                    <p>Opera</p>
+                    <p>i-Opera</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Windows-Microsoft"></i>
-                    <p>Windows-Microsoft</p>
+                    <p>i-Windows-Microsoft</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Fingerprint-2"></i>
-                    <p>Fingerprint-2</p>
+                    <p>i-Fingerprint-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Hand"></i>
-                    <p>Hand</p>
+                    <p>i-Hand</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Heart1"></i>
-                    <p>Heart1</p>
+                    <p>i-Heart1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Back-2"></i>
-                    <p>Arrow-Back-2</p>
+                    <p>i-Arrow-Back-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Back-3"></i>
-                    <p>Arrow-Back-3</p>
+                    <p>i-Arrow-Back-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Back"></i>
-                    <p>Arrow-Back</p>
+                    <p>i-Arrow-Back</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Down-2"></i>
-                    <p>Arrow-Down-2</p>
+                    <p>i-Arrow-Down-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Down-3"></i>
-                    <p>Arrow-Down-3</p>
+                    <p>i-Arrow-Down-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Down-in-Circle"></i>
-                    <p>Arrow-Down-in-Circle</p>
+                    <p>i-Arrow-Down-in-Circle</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Down"></i>
-                    <p>Arrow-Down</p>
+                    <p>i-Arrow-Down</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Forward-2"></i>
-                    <p>Arrow-Forward-2</p>
+                    <p>i-Arrow-Forward-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Forward"></i>
-                    <p>Arrow-Forward</p>
+                    <p>i-Arrow-Forward</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Left-2"></i>
-                    <p>Arrow-Left-2</p>
+                    <p>i-Arrow-Left-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Left-in-Circle"></i>
-                    <p>Arrow-Left-in-Circle</p>
+                    <p>i-Arrow-Left-in-Circle</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Left"></i>
-                    <p>Arrow-Left</p>
+                    <p>i-Arrow-Left</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Next"></i>
-                    <p>Arrow-Next</p>
+                    <p>i-Arrow-Next</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Right-2"></i>
-                    <p>Arrow-Right-2</p>
+                    <p>i-Arrow-Right-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Right-in-Circle"></i>
-                    <p>Arrow-Right-in-Circle</p>
+                    <p>i-Arrow-Right-in-Circle</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Right"></i>
-                    <p>Arrow-Right</p>
+                    <p>i-Arrow-Right</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Turn-Left"></i>
-                    <p>Arrow-Turn-Left</p>
+                    <p>i-Arrow-Turn-Left</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Turn-Right"></i>
-                    <p>Arrow-Turn-Right</p>
+                    <p>i-Arrow-Turn-Right</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Up-2"></i>
-                    <p>Arrow-Up-2</p>
+                    <p>i-Arrow-Up-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Up-3"></i>
-                    <p>Arrow-Up-3</p>
+                    <p>i-Arrow-Up-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Up-in-Circle"></i>
-                    <p>Arrow-Up-in-Circle</p>
+                    <p>i-Arrow-Up-in-Circle</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Up"></i>
-                    <p>Arrow-Up</p>
+                    <p>i-Arrow-Up</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-X-Left"></i>
-                    <p>Arrow-X-Left</p>
+                    <p>i-Arrow-X-Left</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-X-Right"></i>
-                    <p>Arrow-X-Right</p>
+                    <p>i-Arrow-X-Right</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Bottom-To-Top"></i>
-                    <p>Bottom-To-Top</p>
+                    <p>i-Bottom-To-Top</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Down-2"></i>
-                    <p>Down-2</p>
+                    <p>i-Down-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Down-3"></i>
-                    <p>Down-3</p>
+                    <p>i-Down-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Down1"></i>
-                    <p>Down1</p>
+                    <p>i-Down1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Download1"></i>
-                    <p>Download1</p>
+                    <p>i-Download1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-End1"></i>
-                    <p>End1</p>
+                    <p>i-End1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Fit-To-2"></i>
-                    <p>Fit-To-2</p>
+                    <p>i-Fit-To-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Fit-To"></i>
-                    <p>Fit-To</p>
+                    <p>i-Fit-To</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Full-Screen-2"></i>
-                    <p>Full-Screen-2</p>
+                    <p>i-Full-Screen-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Full-Screen"></i>
-                    <p>Full-Screen</p>
+                    <p>i-Full-Screen</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Go-Bottom"></i>
-                    <p>Go-Bottom</p>
+                    <p>i-Go-Bottom</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Go-Top"></i>
-                    <p>Go-Top</p>
+                    <p>i-Go-Top</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Left---Right"></i>
-                    <p>Left---Right</p>
+                    <p>i-Left---Right</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Left-2"></i>
-                    <p>Left-2</p>
+                    <p>i-Left-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Left-3"></i>
-                    <p>Left-3</p>
+                    <p>i-Left-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Left-To-Right"></i>
-                    <p>Left-To-Right</p>
+                    <p>i-Left-To-Right</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Left1"></i>
-                    <p>Left1</p>
+                    <p>i-Left1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Navigat-Start"></i>
-                    <p>Navigat-Start</p>
+                    <p>i-Navigat-Start</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Navigate-End"></i>
-                    <p>Navigate-End</p>
+                    <p>i-Navigate-End</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Reload1"></i>
-                    <p>Reload1</p>
+                    <p>i-Reload1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Repeat-3"></i>
-                    <p>Repeat-3</p>
+                    <p>i-Repeat-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Repeat2"></i>
-                    <p>Repeat2</p>
+                    <p>i-Repeat2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Right-2"></i>
-                    <p>Right-2</p>
+                    <p>i-Right-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Right-3"></i>
-                    <p>Right-3</p>
+                    <p>i-Right-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Right-To-Left"></i>
-                    <p>Right-To-Left</p>
+                    <p>i-Right-To-Left</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Right1"></i>
-                    <p>Right1</p>
+                    <p>i-Right1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Shuffle-21"></i>
-                    <p>Shuffle-21</p>
+                    <p>i-Shuffle-21</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Shuffle1"></i>
-                    <p>Shuffle1</p>
+                    <p>i-Shuffle1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Start1"></i>
-                    <p>Start1</p>
+                    <p>i-Start1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Sync"></i>
-                    <p>Sync</p>
+                    <p>i-Sync</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-To-Bottom-2"></i>
-                    <p>To-Bottom-2</p>
+                    <p>i-To-Bottom-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-To-Bottom"></i>
-                    <p>To-Bottom</p>
+                    <p>i-To-Bottom</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-To-Left"></i>
-                    <p>To-Left</p>
+                    <p>i-To-Left</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-To-Right"></i>
-                    <p>To-Right</p>
+                    <p>i-To-Right</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-To-Top-2"></i>
-                    <p>To-Top-2</p>
+                    <p>i-To-Top-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-To-Top"></i>
-                    <p>To-Top</p>
+                    <p>i-To-Top</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Top-To-Bottom"></i>
-                    <p>Top-To-Bottom</p>
+                    <p>i-Top-To-Bottom</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Triangle-Arrow-Down"></i>
-                    <p>Triangle-Arrow-Down</p>
+                    <p>i-Triangle-Arrow-Down</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Triangle-Arrow-Left"></i>
-                    <p>Triangle-Arrow-Left</p>
+                    <p>i-Triangle-Arrow-Left</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Triangle-Arrow-Right"></i>
-                    <p>Triangle-Arrow-Right</p>
+                    <p>i-Triangle-Arrow-Right</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Triangle-Arrow-Up"></i>
-                    <p>Triangle-Arrow-Up</p>
+                    <p>i-Triangle-Arrow-Up</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Turn-Down-2"></i>
-                    <p>Turn-Down-2</p>
+                    <p>i-Turn-Down-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Turn-Down-From-Left"></i>
-                    <p>Turn-Down-From-Left</p>
+                    <p>i-Turn-Down-From-Left</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Turn-Down-From-Right"></i>
-                    <p>Turn-Down-From-Right</p>
+                    <p>i-Turn-Down-From-Right</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Turn-Down"></i>
-                    <p>Turn-Down</p>
+                    <p>i-Turn-Down</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Turn-Left-3"></i>
-                    <p>Turn-Left-3</p>
+                    <p>i-Turn-Left-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Turn-Left"></i>
-                    <p>Turn-Left</p>
+                    <p>i-Turn-Left</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Turn-Right-3"></i>
-                    <p>Turn-Right-3</p>
+                    <p>i-Turn-Right-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Turn-Right"></i>
-                    <p>Turn-Right</p>
+                    <p>i-Turn-Right</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Turn-Up-2"></i>
-                    <p>Turn-Up-2</p>
+                    <p>i-Turn-Up-2</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Turn-Up"></i>
-                    <p>Turn-Up</p>
+                    <p>i-Turn-Up</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Up---Down-3"></i>
-                    <p>Up---Down-3</p>
+                    <p>i-Up---Down-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Up---Down"></i>
-                    <p>Up---Down</p>
+                    <p>i-Up---Down</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Up-3"></i>
-                    <p>Up-3</p>
+                    <p>i-Up-3</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Up1"></i>
-                    <p>Up1</p>
+                    <p>i-Up1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Upload1"></i>
-                    <p>Upload1</p>
+                    <p>i-Upload1</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Circle"></i>
-                    <p>Arrow-Circle</p>
+                    <p>i-Arrow-Circle</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Out-Left"></i>
-                    <p>Arrow-Out-Left</p>
+                    <p>i-Arrow-Out-Left</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Arrow-Out-Right"></i>
-                    <p>Arrow-Out-Right</p>
+                    <p>i-Arrow-Out-Right</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Align-Justify-All"></i>
-                    <p>Align-Justify-All</p>
+                    <p>i-Align-Justify-All</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Align-Justify-Center"></i>
-                    <p>Align-Justify-Center</p>
+                    <p>i-Align-Justify-Center</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Align-Justify-Left"></i>
-                    <p>Align-Justify-Left</p>
+                    <p>i-Align-Justify-Left</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Align-Justify-Right"></i>
-                    <p>Align-Justify-Right</p>
+                    <p>i-Align-Justify-Right</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Align-Left"></i>
-                    <p>Align-Left</p>
+                    <p>i-Align-Left</p>
                 </div>
                 <div class="text-center mb-3 col-sm-2"><i class="text-20 i-Align-Right"></i>
-                    <p>Align-Right</p>
+                    <p>i-Align-Right</p>
                 </div>
             </div>
         </div>

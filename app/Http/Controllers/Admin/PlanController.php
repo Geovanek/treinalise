@@ -37,29 +37,20 @@ class PlanController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.plans.create');
     }
 
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  App\Http\Requests\StoreUpdatePlan  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StoreUpdatePlan $request)
     {
-        //
-    }
+        $this->repository->create($request->all());
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        
+        return redirect()->route('plans.index');
     }
 
     /**
@@ -81,13 +72,12 @@ class PlanController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Requests  $request
+     * @param  App\Http\Requests\StoreUpdatePlan  $request
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(StoreUpdatePlan $request, $id)
     {
-        dd($request->all());
         $plan = $this->repository->where('id', $id)->first();
 
         if (!$plan)
@@ -106,6 +96,25 @@ class PlanController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $plan = $this->repository
+                     ->with('details')
+                     ->where('id', $id)
+                     ->first();
+
+        if (!$plan)
+            return redirect()->back();
+
+        if ($plan->companies->count() > 0) {
+            $notification = array(
+                'message' => 'Não é possível excluir esse plano, pois existem empresas vinculados a ele.', 
+                'alert-type' => 'error'
+            );
+            return redirect()->back()->with($notification);
+        }
+        
+        $plan->delete();
+
+        return redirect()->route('plans.index')
+                         ->with('message', 'Plano deletado com sucesso.');
     }
 }

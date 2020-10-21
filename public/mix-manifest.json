@@ -3,5 +3,7 @@
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
     "/gull/assets/styles/css/themes/lite-custom.min.css": "/gull/assets/styles/css/themes/lite-custom.min.css",
+    "/js/livewireSweetAlert.js": "/js/livewireSweetAlert.js",
+    "/js/livewireToastr.js": "/js/livewireToastr.js",
     "/gull/assets/js/common-bundle-script.js": "/gull/assets/js/common-bundle-script.js"
 }
