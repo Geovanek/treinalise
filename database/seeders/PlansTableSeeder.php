@@ -13,73 +13,173 @@ class PlansTableSeeder extends Seeder
      */
     public function run()
     {
-        Plan::create([
+        $plan = Plan::create([
             'name' => 'Cortesia',
-            'url' => 'cortesia',
             'price' => 0.00,
-            'price_details' => 'Cortesia de uso para empresas selecionadas',
-            'description' => '',
+            'price_details' => 'Cortesia',
+            'description' => 'Para empresas parceiras',
             'icon' => 'i-Gift-Box',
             'state_color' => 'secondary',
             'active' => false,
         ]);
+        $details = [
+                [
+                    'description' => 'Atletas ilimitados',
+                    'plan_package' => 'N',
+                    'plan_discount' => 'N',
+                ],[
+                    'description' => 'Sistema de planejamento e prescrição de treinos',
+                    'plan_package' => 'Y',
+                    'plan_discount' => 'N',
+                ],[
+                    'description' => 'Controle das cargas de treinamento',
+                    'plan_package' => 'Y',
+                    'plan_discount' => 'N',
+                ],[
+                    'description' => 'Distribuição da intensidade de treinamento',
+                    'plan_package' => 'Y',
+                    'plan_discount' => 'N',
+                ],[
+                    'description' => 'Análise de dados de frequência cardíaca (FC)',
+                    'plan_package' => 'Y',
+                    'plan_discount' => 'N',
+                ],[
+                    'description' => 'Análise de potência para ciclismo',
+                    'plan_package' => 'Y',
+                    'plan_discount' => 'N',
+                ],[
+                    'description' => 'Análise de pace para corrida',
+                    'plan_package' => 'Y',
+                    'plan_discount' => 'N',
+                ]
+            ];
+        $plan->details()->createMany($details);
 
-        Plan::create([
+        $plan = Plan::create([
             'name' => 'Básico',
-            'url' => 'basic',
             'price' => 29.99,
-            'price_details' => 'reais/mês + R$99,00 taxa de adesão',
-            'description' => 'Inicie com as ferramentas básicas, limitado a 5 atletas',
+            'price_details' => 'por mês',
+            'description' => 'Limitado a 5 atletas',
             'icon' => 'i-Pie-Chart-2',
-            'state_color' => 'danger',
-            'active' => true,
-        ]);
-
-        Plan::create([
-            'name' => 'Ilimitado Mensal',
-            'url' => 'unlimited-month',
-            'price' => 89.99,
-            'price_details' => 'reais/mês + R$99,00 taxa de adesão',
-            'description' => 'Ferramentas básicas e atletas ilimitados',
-            'icon' => 'i-Coins',
-            'state_color' => 'primary',
-            'active' => true,
-        ]);
-
-        Plan::create([
-            'name' => 'Ilimitado Anual',
-            'url' => 'unlimited-year',
-            'price' => 971.89,
-            'price_details' => 'reais/ano + R$99,00 taxa de adesão',
-            'description' => 'Ferramentas básicas e atletas ilimitados',
-            'icon' => 'i-Bar-Chart-2',
             'state_color' => 'warning',
-            'discount' => '10%',
             'active' => true,
         ]);
+        $details = [
+            [
+                'description' => 'Extensões básicas',
+                'plan_package' => 'N',
+                'plan_discount' => 'N',
+            ],[
+                'description' => 'Sistema de planejamento e prescrição de treinos',
+                'plan_package' => 'Y',
+                'plan_discount' => 'N',
+            ],[
+                'description' => 'Controle das cargas de treinamento',
+                'plan_package' => 'Y',
+                'plan_discount' => 'N',
+            ],[
+                'description' => 'Distribuição da intensidade de treinamento',
+                'plan_package' => 'N',
+                'plan_discount' => 'N',
+            ],[
+                'description' => 'Análise de dados de frequência cardíaca (FC)',
+                'plan_package' => 'N',
+                'plan_discount' => 'N',
+            ],[
+                'description' => 'Análise de potência para ciclismo',
+                'plan_package' => 'N',
+                'plan_discount' => 'N',
+            ],[
+                'description' => 'Análise de pace para corrida',
+                'plan_package' => 'N',
+                'plan_discount' => 'N',
+            ]
+        ];
+        $plan->details()->createMany($details);
 
-        Plan::create([
-            'name' => 'Especialista Mensal',
-            'url' => 'expert-month',
-            'price' => 149.99,
-            'price_details' => 'reais/ano + R$99,00 taxa de adesão',
-            'description' => 'Todas as extensões inclusas e atletas ilimitados',
-            'icon' => 'i-Bar-Chart',
+        $plan = Plan::create([
+            'name' => 'Ilimitado',
+            'price' => 89.99,
+            'price_details' => 'por mês',
+            'description' => 'Atletas ilimitados',
+            'icon' => 'i-Bar-Chart-2',
             'state_color' => 'info',
-            'discount' => '5%',
             'active' => true,
         ]);
+        $details = [
+            [
+                'description' => 'Extensões adicionais',
+                'plan_package' => 'N',
+                'plan_discount' => 'N',
+            ],[
+                'description' => 'Sistema de planejamento e prescrição de treinos',
+                'plan_package' => 'Y',
+                'plan_discount' => 'N',
+            ],[
+                'description' => 'Controle das cargas de treinamento',
+                'plan_package' => 'Y',
+                'plan_discount' => 'N',
+            ],[
+                'description' => 'Distribuição da intensidade de treinamento',
+                'plan_package' => 'Y',
+                'plan_discount' => 'N',
+            ],[
+                'description' => 'Análise de dados de frequência cardíaca (FC)',
+                'plan_package' => 'N',
+                'plan_discount' => 'N',
+            ],[
+                'description' => 'Análise de potência para ciclismo',
+                'plan_package' => 'N',
+                'plan_discount' => 'N',
+            ],[
+                'description' => 'Análise de pace para corrida',
+                'plan_package' => 'N',
+                'plan_discount' => 'N',
+            ]
+        ];
+        $plan->details()->createMany($details);
 
-        Plan::create([
-            'name' => 'Especialista Anual',
-            'url' => 'expert-year',
-            'price' => 199.99,
-            'price_details' => 'reais/ano + R$99,00 taxa de adesão',
-            'description' => 'Todas as extensões inclusas e atletas ilimitados',
+        $plan = Plan::create([
+            'name' => 'Especialista',
+            'price' => 149.99,
+            'price_details' => 'por mês',
+            'description' => 'Pacote promo de extensões',
             'icon' => 'i-Medal-3',
             'state_color' => 'success',
-            'discount' => '20%',
+            'discount' => '15',
             'active' => true,
         ]);
+        $details = [
+            [
+                'description' => 'Atletas Ilimitados',
+                'plan_package' => 'N',
+                'plan_discount' => 'N',
+            ],[
+                'description' => 'Sistema de planejamento e prescrição de treinos',
+                'plan_package' => 'Y',
+                'plan_discount' => 'N',
+            ],[
+                'description' => 'Controle das cargas de treinamento',
+                'plan_package' => 'Y',
+                'plan_discount' => 'N',
+            ],[
+                'description' => 'Distribuição da intensidade de treinamento',
+                'plan_package' => 'Y',
+                'plan_discount' => 'N',
+            ],[
+                'description' => 'Análise de dados de frequência cardíaca (FC)',
+                'plan_package' => 'Y',
+                'plan_discount' => 'Y',
+            ],[
+                'description' => 'Análise de potência para ciclismo',
+                'plan_package' => 'N',
+                'plan_discount' => 'N',
+            ],[
+                'description' => 'Análise de pace para corrida',
+                'plan_package' => 'N',
+                'plan_discount' => 'N',
+            ]
+        ];
+        $plan->details()->createMany($details);
     }
 }

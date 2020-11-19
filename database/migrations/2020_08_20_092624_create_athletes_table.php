@@ -17,7 +17,8 @@ class CreateAthletesTable extends Migration
             $table->id('id');
             $table->uuid('uuid')->index();
             $table->tenantCompany();
-            $table->tenantCoach();
+            $table->unsignedBigInteger('coach_id')->nullable();
+            $table->foreign('coach_id')->references('id')->on('coaches');
             $table->timestamps();
         });
     }

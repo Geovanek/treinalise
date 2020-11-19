@@ -14,6 +14,8 @@ const mix = require("laravel-mix");
 mix
     /* Laravel */
     .js("resources/js/app.js", "public/js")
+    .js("resources/js/datatables.js", "public/js")
+    .js("resources/js/smart.wizard.js", "public/js")
     .sass("resources/sass/app.scss", "public/css")
 
     /* Gull Theme */

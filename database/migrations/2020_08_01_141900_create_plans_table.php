@@ -17,7 +17,7 @@ class CreatePlansTable extends Migration
             $table->id();
             $table->uuid('uuid')->index();
             $table->string('name')->unique();
-            $table->string('url')->unique();
+            $table->string('slug')->unique();
             $table->double('price', 10, 2);
             $table->string('price_details');
             $table->string('description')->nullable();

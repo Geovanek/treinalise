@@ -2,12 +2,14 @@
 
 namespace App\Providers;
 
+use App\Models\Company;
 use App\Models\Extension;
 use App\Models\Plan;
+use App\Observers\CompanyObserver;
 use App\Observers\ExtensionObserver;
 use App\Observers\PlanObserver;
 use Code\Validator\Cpf;
-use Code\Validator\Cnpjf;
+use Code\Validator\Cnpj;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Database\Events\QueryExecuted;
 use Illuminate\Support\ServiceProvider;
@@ -34,6 +36,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         \Schema::defaultStringLength(191);
+
         \Validator::extend('cpf', function($attribute, $value, $parameters, $validator) {
             return (new Cpf())->isValid($value);
         });
@@ -51,7 +54,8 @@ class AppServiceProvider extends ServiceProvider
 
         Paginator::useBootstrap();
 
-        Plan::observe(PlanObserver::class);
+        Company::observe(CompanyObserver::class);
         Extension::observe(ExtensionObserver::class);
+        Plan::observe(PlanObserver::class);
     }
 }

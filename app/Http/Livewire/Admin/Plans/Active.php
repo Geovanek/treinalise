@@ -12,8 +12,8 @@ class Active extends Component
     public $checked;
 
     protected $messages = [
-        'active.required' => 'Oops! Ocorreu um erro. Por favor, contate o administrador.',
-        'active.boolean' => 'O valor informado para ativação esta incorreto. Por favor contate o administrador.',
+        'active.required' => 'Oops! Ocorreu um erro. Por favor, contate o suporte.',
+        'active.boolean' => 'O valor informado para ativação esta incorreto. Por favor contate o suporte.',
     ];
 
     public function mount($plan)
@@ -50,7 +50,7 @@ class Active extends Component
         } else {
             $this->emit('message', [
                 'type' => 'warning', 
-                'message' => 'Não foi possível executar a tarefa. Tente novamente ou contate o administrador.'
+                'message' => 'Não foi possível executar a tarefa. Tente novamente ou contate o suporte.'
             ]);
         }
     }

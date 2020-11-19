@@ -24,9 +24,6 @@
                         </span>
                     </div>
                 </div>
-                <small class="ul-form__text ">
-                    Utilizar formato decimal com ponto (0.00)
-                </small>
             </div>
         </div>
 
@@ -37,7 +34,7 @@
             <div class="col-lg-3">
                 <input type="text" class="form-control" name="price_details" id="price_details" placeholder="Detalhes do preço" value="{{ $plan->price_details ?? old('price_details') }}">
                 <small class="ul-form__text form-text ">
-                    Ex: por mês
+                    Colocar <em>por mês</em> ou <em>por ano</em>
                 </small>
             </div>
 
@@ -45,7 +42,7 @@
             <div class="col-lg-3">
                 <input type="text" class="form-control" name="discount" id="discount" placeholder="Desconto" value="{{ $plan->discount ?? old('discount') }}">
                 <small class="ul-form__text form-text ">
-                    Colocar somente valor numérico
+                    Colocar somente valor sem %
                 </small>
             </div>
         </div>

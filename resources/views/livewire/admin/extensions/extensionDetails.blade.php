@@ -1,18 +1,15 @@
 <div>
     @include('livewire.admin.extensions._partials.modalDetails')
 
-    <div class="card mb-4">
+    <div class="card">
         <div class="card-header">
-            <h3 class="w-50 float-left card-title m-0">{{ $extension->name }}</h3>
-            <div class="dropdown dropleft text-right w-50 float-right">
+            <div class="text-right w-50 float-right">
                 <button type="button" wire:click.prevent="action('create')" class="btn btn-raised ripple btn-raised-secondary" data-toggle="modal" data-target="#modal">
                     <i class="nav-icon i-Add"></i>
                     Adicionar Novo Detalhe
                 </button>
             </div>
         </div>
-    </div>
-    <div class="card">
         <div class="card-body">
             <div class="table-responsive">
                 <table class="table table-borderless table-hover">
@@ -27,9 +24,9 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach($details as $key => $detail)
+                        @foreach($details as $index => $detail)
                             <tr>
-                                <th scope="row">{{ $key }}</th>
+                                <th scope="row">{{ $index + 1 }}</th>
                                 <td>
                                     <i class="{{ $detail->icon }} text-22 text-{{ $detail->state_color }} font-weight-600 mr-3"></i>
                                 </td>

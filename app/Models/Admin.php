@@ -11,10 +11,15 @@ use Illuminate\Database\Eloquent\Model;
 
 class Admin extends Model
 {
-    public static function createUser(array $attributes): Admin //['user' => []]
+    /**
+    * Função para criar User e Admin via seeder.
+    */
+    public static function createUser(array $attributes): Admin
     {
         $admin = self::create([]);
+
         $admin->users()->create($attributes['user']);
+
         return $admin;
     }
 

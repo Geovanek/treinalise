@@ -1,11 +1,11 @@
-<div wire:ignore.self class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalExtension" aria-hidden="true">
+<div wire:ignore.self wire:keydown.escape="cancel()" class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalExtension" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="modalExtension">
                     {{ ($modalMode == 'store') ? 'Adicionar Novo Detalhe' : 'Editar Detalhe' }}
                 </h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <button wire:click.prevent="cancel()" type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
@@ -13,17 +13,17 @@
                 <form>
                     <div class="form-group">
                         <label for="name">Nome:</label>
-                        <input type="text" class="form-control" name="name" id="name" placeholder="Nome do Detalhe" wire:model="name">
+                        <input wire:model.defer="name" type="text" class="form-control" name="name" id="name" placeholder="Nome do Detalhe">
                         @error('name') <span class="text-danger error">{{ $message }}</span>@enderror
                     </div>
                     <div class="form-group">
-                        <label for="icon">Descrição:</label>
-                        <input type="text" class="form-control" name="description" id="description" placeholder="Descrição curta" wire:model="description">
+                        <label for="description">Descrição:</label>
+                        <input wire:model.defer="description" type="text" class="form-control" name="description" id="description" placeholder="Descrição curta">
                         @error('description') <span class="text-danger error">{{ $message }}</span>@enderror
                     </div>
                     <div class="form-group">
                         <label for="icon">Ícone representativo:</label>
-                        <input type="text" class="form-control" name="icon" id="icon" placeholder="Ícone" wire:model="icon">
+                        <input wire:model.defer="icon" type="text" class="form-control" name="icon" id="icon" placeholder="Ícone">
                         <small class="ul-form__text ">
                             <a href="{{ route('admin.icons') }}" target="_blank">CLique para escolher o ícone</a>
                         </small>
@@ -31,7 +31,7 @@
                     </div>
                     <div class="form-group">
                         <label for="state_color">Cor de estilo do detalhe:</label>
-                        <input type="text" class="form-control" name="state_color" id="state_color" placeholder="Cor de estilo" wire:model="state_color">
+                        <input wire:model.defer="state_color" type="text" class="form-control" name="state_color" id="state_color" placeholder="Cor de estilo">
                         <small class="ul-form__text ">
                             Copiar o nome nos badges abaixo e colar no campo
                         </small>

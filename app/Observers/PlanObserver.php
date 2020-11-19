@@ -15,7 +15,6 @@ class PlanObserver
      */
     public function creating(Plan $plan)
     {
-        $plan->url = Str::kebab($plan->name);
         $plan->active = false;
     }
 
@@ -27,6 +26,6 @@ class PlanObserver
      */
     public function updating(Plan $plan)
     {
-        $plan->url = Str::kebab($plan->name);
+        //
     }
 }

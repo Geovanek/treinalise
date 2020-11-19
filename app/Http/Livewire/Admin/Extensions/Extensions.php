@@ -4,32 +4,34 @@ namespace App\Http\Livewire\Admin\Extensions;
 
 use Livewire\Component;
 use App\Models\Extension;
+use App\Models\Company;
+use App\Services\ExtensionService;
 
 class Extensions extends Component
 {
-    public $extensions, $name, $url, $price, $icon, $state_color, $active, $uuid;
+    public $extensions, $name, $price, $icon, $state_color, $active, $uuid, $companiesTotal;
     public $modalMode;
 
     protected $listeners = ['destroy'];
 
-    protected $rules = [
-        'name' => "required|min:3|max:255|unique:extensions,name",
-        'price' => "required|regex:/^\d+(\.\d{1,2})?$/",
-    ];
-
     protected $messages = [
         'price.required' => 'Preço é obrigatório',
+        'active.boolean' => 'Oops! Algo esta errado.'
     ];
 
     public function render()
     {
-        $this->extensions = Extension::all();
+        $this->extensions = Extension::with('details', 'plans.companies', 'companies')->get();
+        $this->companiesTotal = Company::count();
         return view('livewire.admin.extensions.extensions');
     }
 
     public function store()
     {
-        $validate = $this->validate();
+        $validate = $this->validate([
+            'name' => "required|min:3|max:255|unique:extensions,name",
+            'price' => "required|regex:/^\d+(\.\d{1,2})?$/",
+        ]);
 
         Extension::create($validate);
 
@@ -39,8 +41,7 @@ class Extensions extends Component
         ]);
 
         $this->resetInputFields();
-
-        $this->emit('closeModalStoreUpdate'); // Close model to using to jquery
+        $this->emit('closeModalStoreUpdate');
     }
 
     public function action($modalMode, $uuid = null)
@@ -67,71 +68,38 @@ class Extensions extends Component
             'price' => "required|regex:/^\d+(\.\d{1,2})?$/",
         ]);
 
-        if ($this->uuid) {
-            $extension = Extension::where('uuid',$this->uuid)->first();
- 
-            $extension->update($validate);
+        $extension = Extension::where('uuid',$this->uuid)->firstOrFail();
+        $extension->update($validate);
 
-            $this->emit('message', [
-                'type' => 'success', 
-                'message' => 'Extensão atualizada.'
-            ]);
+        $this->emit('message', [
+            'type' => 'success', 
+            'message' => 'Extensão atualizada.'
+        ]);
 
-            $this->resetInputFields();
-
-            $this->emit('closeModalStoreUpdate'); // Close model to using to jquery
-        } else {
-            $this->emit('message', [
-                'type' => 'warning', 
-                'message' => 'Não foi possível executar a tarefa. Tente novamente ou contate o administrador.'
-            ]);
-        }
+        $this->resetInputFields();
+        $this->emit('closeModalStoreUpdate');
     }
 
     public function destroy($key)
     {
-        $extension = Extension::where('uuid', $key)->first();
+        $extension = Extension::where('uuid', $key)->firstOrFail();
+        $extension->delete();
 
-        if ($extension) {
-            $extension->delete();
-
-            $this->emit('message', [
-                'type' => 'success', 
-                'message' => 'Extensão deletada.'
-            ]);
-        } else {
-            $this->emit('message', [
-                'type' => 'warning', 
-                'message' => 'Não foi possível executar a tarefa. Tente novamente ou contate o administrador.'
-            ]);
-        }
+        $this->emit('message', [
+            'type' => 'success', 
+            'message' => 'Extensão deletada.'
+        ]);
     }
 
     public function activating($uuid, $active)
     {
-        
-        $this->validate([
-            'active' => 'required|boolean',
+        $extension = Extension::where('uuid', $uuid)->firstOrFail();
+        $return = app(ExtensionService::class)->activating($extension, $active);
+
+        $this->emit('message', [
+            'type' => $return['type'], 
+            'message' => $return['message'],
         ]);
-
-        $this->active = ($active === 0) ? 1 : 0;
-        $message = ($active === 0) ? 'Extensão ativada.' : 'Extensão desativada.';
-
-        $extension = Extension::where('uuid', $uuid)->first();
-
-        if ($extension) {
-            $extension->update(['active' => $this->active]);
-
-            $this->emit('message', [
-                'type' => 'success', 
-                'message' => $message
-            ]);
-        } else {
-            $this->emit('message', [
-                'type' => 'warning', 
-                'message' => 'Não foi possível executar a tarefa. Tente novamente ou contate o administrador.'
-            ]);
-        }
     }
 
     public function cancel()

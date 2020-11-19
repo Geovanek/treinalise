@@ -18,7 +18,13 @@ class RedirectIfAuthenticated
      */
     public function handle($request, Closure $next, $guard = null)
     {
-        if (Auth::guard($guard)->check()) {
+        if (Auth::guard('admin_web')->check()) {
+            return redirect('/admin/dashboard');
+        } else if (Auth::guard('coach_web')->check()) {
+            return redirect('/app/company/coach');
+        } else if (Auth::guard('athlete_web')->check()) {
+            return redirect('/app/athlete/home');
+        } else if (Auth::guard($guard)->check()) {
             return redirect(RouteServiceProvider::HOME);
         }
 

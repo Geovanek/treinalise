@@ -15,29 +15,35 @@ class ExtensionsTableSeeder extends Seeder
      */
     public function run()
     {
-        Extension::create([
+        $extension = Extension::create([
             'name' => 'Potência',
-            'url' => 'potencia',
             'price' => 9.99,
             'active' => true,
             'icon' => 'i-Bicycle',
+            'state_color' => 'success',
         ]);
+        $extension->plans()->sync([1, 2, 3]);
+        $extension->companies()->sync([1, 4, 5]);
 
         Extension::create([
             'name' => 'Sintomas de Stress',
-            'url' => 'sintomas-de-stress',
             'price' => 5.99,
             'active' => true,
             'icon' => 'i-Depression',
-        ]);
+            'state_color' => 'danger',
+        ])->companies()->sync([2, 4]);
 
-        Extension::create([
+        $extension = Extension::create([
             'name' => 'Cargas de Treinamento',
-            'url' => 'cargas-de-treinamento',
             'price' => 7.99,
             'active' => true,
             'icon' => 'i-Bar-Chart-2',
-        ])->each(function ($extension) {
+            'state_color' => 'info',
+        ]);
+        $extension->plans()->sync(1);
+        $extension->companies()->sync([2, 3]);
+
+        Extension::all()->each(function ($extension) {
             $extension->details()->saveMany(ExtensionDetail::factory(3)->make());
         });
     }

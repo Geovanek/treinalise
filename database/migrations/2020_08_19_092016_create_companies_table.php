@@ -19,13 +19,17 @@ class CreateCompaniesTable extends Migration
             $table->unsignedBigInteger('plan_id');
             $table->foreign('plan_id')->references('id')->on('plans');
             $table->string('name')->unique();
-            $table->string('document_number')->unique();
-            $table->string('email')->unique();
-            $table->string('url')->unique();
+            $table->string('document_number');
+            $table->string('company_type');
+            $table->string('email');
+            $table->string('phone');
+            $table->enum('whatsapp', ['Y','N'])->default('N');
+            $table->enum('privacy_policy', ['Y','N'])->default('Y');
+            $table->string('slug')->unique();
             $table->string('logo')->nullable();
 
             // Status tenant (se inativar 'N' ele perde o acesso ao sistema)
-            $table->enum('active', ['Y','N'])->default('Y');
+            $table->enum('active', ['Y','N'])->default('N');
 
             // Subscription
             $table->date('subscription')->nullable(); // Data que se inscreveu

@@ -14,13 +14,13 @@ class ExtensionDetails extends Component
     protected $listeners = ['destroy'];
 
     protected $rules = [
-        'name' => "required|min:3|max:20|unique:extension_details,name",
+        'name' => "required|min:3|max:30|unique:extension_details,name",
         'description' => "min:3|max:100",
     ];
 
     public function mount()
     {
-        $this->extension = Extension::where('url', request()->url)->first();
+        $this->extension = Extension::where('slug', request()->slug)->first();
         session()->put('extension.name', $this->extension->name);
     }
 
@@ -65,48 +65,31 @@ class ExtensionDetails extends Component
     public function update()
     {
         $validate = $this->validate([
-            'name' => "required|min:3|max:20|unique:extension_details,name,{$this->detail_id},id",
+            'name' => "required|min:3|max:30|unique:extension_details,name,{$this->detail_id},id",
             'description' => "min:3|max:100",
         ]);
 
-        if ($this->detail_id) {
-            $detail = ExtensionDetail::find($this->detail_id);
- 
-            $detail->update($validate);
+        $detail = ExtensionDetail::findOrFail($this->detail_id);
+        $detail->update($validate);
 
-            $this->emit('message', [
-                'type' => 'success', 
-                'message' => 'Detalhe atualizada.'
-            ]);
+        $this->emit('message', [
+            'type' => 'success', 
+            'message' => 'Detalhe atualizada.'
+        ]);
 
-            $this->resetInputFields();
-
-            $this->emit('closeModalStoreUpdate');
-        } else {
-            $this->emit('message', [
-                'type' => 'warning', 
-                'message' => 'Não foi possível executar a tarefa. Tente novamente ou contate o administrador.'
-            ]);
-        }
+        $this->resetInputFields();
+        $this->emit('closeModalStoreUpdate');
     }
 
     public function destroy($key)
     {
-        $detail = ExtensionDetail::where('id', $key)->first();
+        $detail = ExtensionDetail::where('id', $key)->firstOrFail();
+        $detail->delete();
 
-        if ($detail) {
-            $detail->delete();
-
-            $this->emit('message', [
-                'type' => 'success', 
-                'message' => 'Detalhe deletado.'
-            ]);
-        } else {
-            $this->emit('message', [
-                'type' => 'warning', 
-                'message' => 'Não foi possível executar a tarefa. Tente novamente ou contate o administrador.'
-            ]);
-        }
+        $this->emit('message', [
+            'type' => 'success', 
+            'message' => 'Detalhe deletado.'
+        ]);
     }
 
     public function cancel()

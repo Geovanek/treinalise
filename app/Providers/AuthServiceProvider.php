@@ -39,19 +39,5 @@ class AuthServiceProvider extends ServiceProvider
         \Auth::provider('athlete_provider', function($app, array $config){
             return new AthleteProvider($app['hash'], $config['model']);
         });
-
-        /* Gate::before(function($user){
-            if($user->containsType(Admin::class)){
-                return true;
-            }
-        });
-
-        Gate::define('coach', function($user){
-            return $user->coach->pivot->userable_type == 'App\Models\Coach';
-        });
-
-        Gate::define('athlete', function($user){
-            return $user->athlete->pivot->userable_type == 'App\Models\Athlete';
-        }); */
     }
 }

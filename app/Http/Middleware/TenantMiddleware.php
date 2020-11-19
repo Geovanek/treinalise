@@ -16,9 +16,7 @@ class TenantMiddleware
     public function handle($request, Closure $next)
     {
         $user = \Auth::user();
-        // $tenantObj = $user->userable->tenant;
-        //dd($user);
-        //na linha abaixo o método coach é o userTenant lá no curso
+        // na linha abaixo o método coach é o userTenant usado no curso da School of Net
         $tenantObj = $user->coach->tenant;
         \Tenant::setTenant($tenantObj);
         return $next($request);

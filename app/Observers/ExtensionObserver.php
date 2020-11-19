@@ -15,7 +15,6 @@ class ExtensionObserver
      */
     public function creating(Extension $extension)
     {
-        $extension->url = Str::kebab($extension->name);
         $extension->active = false;
     }
 
@@ -27,6 +26,6 @@ class ExtensionObserver
      */
     public function updating(Extension $extension)
     {
-        $extension->url = Str::kebab($extension->name);
+        //
     }
 }

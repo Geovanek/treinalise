@@ -13,7 +13,7 @@ $title = Session::pull('extension.name')
 
 @section('content')
     <div class="breadcrumb">
-        <h1>Detalhes da Extensão</h1>
+        <h1>{{ $title }}</h1>
         <ul>
             <li><a href="{{ route('admin.dashboard') }}">Dashboard</a></li>
             <li><a href="{{ route('extensions.index') }}">Extensões</a></li>

@@ -8,8 +8,8 @@
                 </a>
                 <div class="triangle"></div>
             </li>
-            <li class="nav-item {{ request()->is('admin/companies/*') ? 'active' : '' }}" data-item="_blank">
-                <a class="nav-item-hold" href="#">
+            <li class="nav-item {{ request()->is('admin/companies/*') ? 'active' : '' }}">
+                <a class="nav-item-hold" href="{{ route('companies.index') }}">
                     <i class="nav-icon i-Shop"></i>
                     <span class="nav-text">Empresas</span>
                 </a>
@@ -31,7 +31,7 @@
             </li>
 
             <li class="nav-item {{ request()->is('admin/logs/*') ? 'active' : '' }}">
-                <a class="nav-item-hold" href="#" target="_blank">
+                <a class="nav-item-hold" href="#">
                     <i class="nav-icon i-Big-Data"></i>
                     <span class="nav-text">Logs</span>
                 </a>

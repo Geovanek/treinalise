@@ -2,30 +2,50 @@
 
 namespace App\Models;
 
+use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Model;
 
 class Plan extends Model
 {
-    use Uuid;
+    use Uuid, Sluggable;
     
-    protected $fillable = ['name', 'url', 'price', 'price_details', 'description', 'discount', 'icon', 'state_color', 'active'];
+    protected $fillable = ['name', 'slug', 'price', 'price_details', 'description', 'discount', 'icon', 'state_color', 'active'];
 
-    public function companies()
-    {
-        return $this->hasMany(Company::class);
-    }
-
+    /**
+    * Recuperar detalhes do plano
+    */
     public function details()
     {
         return $this->hasMany(PlanDetail::class);
     }
 
-    public function search($filter = null)
+    /**
+    * Recuperar empresas que contrataram o plano
+    */
+    public function companies()
     {
-        $results = $this->where('name', 'LIKE', "%{$filter}%")
-                        ->orWhere('description', 'LIKE', "%{$filter}%")
-                        ->paginate();
+        return $this->hasMany(Company::class);
+    }
 
-        return $results;
+    /**
+    * Recuperar extensions ligadas ao plano
+    */
+    public function extensions()
+    {
+        return $this->belongsToMany(Extension::class);
+    }
+
+    /**
+     * Return the sluggable configuration array for this model.
+     *
+     * @return array
+     */
+    public function sluggable()
+    {
+        return [
+            'slug' => [
+                'source' => 'name'
+            ]
+        ];
     }
 }

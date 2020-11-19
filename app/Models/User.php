@@ -53,11 +53,6 @@ class User extends Authenticatable
         return parent::fill($attributes);
     }
 
-    /* public function userable()
-    {
-        return $this->morphTo();
-    } */
-
     public function containsType($typeClass): bool
     {
         return self
@@ -66,6 +61,11 @@ class User extends Authenticatable
                 ->where('userable_type', $typeClass)
                 ->where('users.id', $this->id)
                 ->count() == 1;
+    }
+
+    public function company()
+    {
+        return $this->belongsTo(Company::class, 'company_owner_id');
     }
 
     public function getAdminAttribute()

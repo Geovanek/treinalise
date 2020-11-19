@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Coach;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -16,7 +17,7 @@ class CreateCoachesTable extends Migration
         Schema::create('coaches', function (Blueprint $table) {
             $table->id('id');
             $table->uuid('uuid')->index();
-            $table->smallInteger('role')->default(0);
+            $table->smallInteger('role')->default(Coach::ROLE_COACH);
             $table->tenantCompany();
             $table->timestamps();
         });

@@ -76,7 +76,6 @@
             e.preventDefault ? e.preventDefault() : e.returnValue = false;
         });
     </script>
-    @yield('page-js')
 
     {{-- theme javascript --}}
     {{-- <script src="{{mix('assets/js/es5/script.js')}}"></script> --}}
@@ -88,7 +87,7 @@
     {{-- laravel js --}}
     {{-- <script src="{{mix('assets/js/laravel/app.js')}}"></script> --}}
 
-    @yield('bottom-js')
+    @yield('page-js')
 
     {{-- livewire js --}}
     @livewireScripts

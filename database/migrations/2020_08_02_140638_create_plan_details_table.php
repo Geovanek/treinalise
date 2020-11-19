@@ -16,8 +16,10 @@ class CreatePlanDetailsTable extends Migration
         Schema::create('plan_details', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('plan_id');
-            $table->string('name');
             $table->foreign('plan_id')->references('id')->on('plans')->onDelete('cascade');
+            $table->string('description');
+            $table->enum('plan_package', ['Y','N'])->default('N');
+            $table->enum('plan_discount', ['Y','N'])->default('N');
             $table->timestamps();
         });
     }

@@ -21,26 +21,36 @@ class Coach extends Model
         'company_id', 'role'
     ];
 
-    public static function createUserAndAthlete(array $attributes) //criar Coach e Athlete
-    {
-        $coach = self::createUser($attributes);
-        $athlete = Athlete::create([
-            'company_id' => $attributes['company_id'],
-            'coach_id' => $coach->id,
-        ]);
-        $user = $coach->user; //aqui uso o recurso 'user' devido ao método getUserAttribute()
-        $athlete->users()->sync($user->id);
-        return ['coach' => $coach, 'athlete' => $athlete];
-    }
-    
-    public static function createUser(array $attributes): Coach
+    /**
+    * Função para criar User, Coach e Athlete via seeder.
+    */
+    public static function createUserAndAthlete(array $attributes)
     {
         $coach = self::create([
             'company_id' => $attributes['company_id'],
             'role' => $attributes['role'],
         ]);
+
         $coach->users()->create($attributes['user']);
-        return $coach;
+
+        $athlete = Athlete::create([
+            'company_id' => $attributes['company_id'],
+            'coach_id' => $coach->id,
+        ]);
+
+        $athlete->users()->sync($coach->user->id); //getUserAttribute()
+
+        return ['coach' => $coach, 'athlete' => $athlete];
+    }
+
+    public function company()
+    {
+        return $this->belongsTo(Company::class);
+    }
+
+    public function athletes()
+    {
+        return $this->hasMany(Athlete::class);
     }
 
     public function getUserAttribute()

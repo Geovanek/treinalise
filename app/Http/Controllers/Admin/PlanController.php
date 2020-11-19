@@ -25,7 +25,7 @@ class PlanController extends Controller
      */
     public function index()
     {
-        $plans = $this->repository->get();
+        $plans = $this->repository->with('details')->get();
 
         return view('admin.plans.index', compact('plans'));
     }
@@ -111,7 +111,9 @@ class PlanController extends Controller
             );
             return redirect()->back()->with($notification);
         }
-        
+
+        $plan->extensions()->detach();
+
         $plan->delete();
 
         return redirect()->route('plans.index')

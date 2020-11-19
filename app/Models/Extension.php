@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -9,9 +10,17 @@ class Extension extends Model
 {
     use HasFactory;
     use Uuid;
+    use Sluggable;
 
-    protected $fillable = ['name', 'url', 'price', 'icon', 'state_color', 'active'];
+    protected $fillable = ['name', 'slug', 'price', 'icon', 'state_color', 'active'];
 
+    /**
+     * Get Extension Details
+     */
+    public function details()
+    {
+        return $this->hasMany(ExtensionDetail::class);
+    }
 
     /**
      * Get Companies
@@ -30,10 +39,16 @@ class Extension extends Model
     }
 
     /**
-     * Get Details
+     * Return the sluggable configuration array for this model.
+     *
+     * @return array
      */
-    public function details()
+    public function sluggable()
     {
-        return $this->hasMany(ExtensionDetail::class);
+        return [
+            'slug' => [
+                'source' => 'name'
+            ]
+        ];
     }
 }
