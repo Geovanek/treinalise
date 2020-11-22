@@ -5,7 +5,6 @@
 @section('page-css')
     <link rel="stylesheet" href="{{asset('gull/assets/styles/vendor/sweetalert2.min.css')}}">
     <link rel="stylesheet" href="{{asset('gull/assets/styles/vendor/toastr.css')}}">
-    <link rel="stylesheet" href="{{asset('gull/assets/styles/vendor/datatables.min.css')}}">
 @endsection
 
 @section('content')
@@ -19,14 +18,13 @@
     <div class="separator-breadcrumb border-top"></div>
 
     @livewire('admin.companies.show')
+
     
 @endsection
 
 @section('page-js')
     <script src="{{asset('gull/assets/js/vendor/sweetalert2.min.js')}}"></script>
     <script src="{{asset('gull/assets/js/sweetalert.script.js')}}"></script>
-    <script src="{{asset('gull/assets/js/vendor/datatables.min.js')}}"></script>
-    <script src="{{asset('js/datatables.js')}}"></script>
 @endsection
 
 @section('livewire-js')

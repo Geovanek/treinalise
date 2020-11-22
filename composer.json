@@ -21,6 +21,7 @@
         "laravel/tinker": "^2.0",
         "laravel/ui": "^3.0",
         "livewire/livewire": "^2.2",
+        "rappasoft/laravel-livewire-tables": "^0.3.2",
         "socialiteproviders/github": "^1.0",
         "socialiteproviders/strava": "dev-master"
     },
