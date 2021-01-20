@@ -50,7 +50,7 @@ class CompaniesTableSeeder extends Seeder
             'phone' => '00000-0000',
         ]);
 
-        $plan = Plan::find(2);
+        $plan = Plan::find(4);
         $plan->companies()->create([
             'name' => 'Empresa teste 4',
             'document_number' => '61996467115',

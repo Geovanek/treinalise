@@ -1,10 +1,10 @@
 @if (count($exports))
-    <div class="dropdown table-export">
-        <button class="dropdown-toggle {{ $this->getOption('bootstrap.classes.buttons.export') }}" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            @lang('laravel-livewire-tables::strings.export')
+    <div class="input-group-append">
+        <button class="input-group-text dropdown-toggle {{ $this->getOption('bootstrap.classes.buttons.export') }}" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            @lang('laravel-livewire-tables::strings.export') &nbsp; &nbsp; &nbsp;
         </button>
 
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <div class="dropdown-menu" x-placement="bottom-start">
             @if (in_array('csv', $exports, true))
                 <a class="dropdown-item" href="#" wire:click.prevent="export('csv')">CSV</a>
             @endif

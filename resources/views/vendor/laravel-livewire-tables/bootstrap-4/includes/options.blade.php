@@ -11,40 +11,42 @@
             </div><!--col-->
         @endif
         
-        <div class="col-3">
+        <div class="col-2">
             @include('laravel-livewire-tables::'.config('laravel-livewire-tables.theme').'.includes.loading')
         </div>
 
-        @if ($searchEnabled)
-            <div class="col-5">
-                @if ($clearSearchButton)
-                    <div class="input-group">
-                        @endif
-                        <input
-                            @if (is_numeric($searchDebounce) && $searchUpdateMethod === 'debounce') wire:model.debounce.{{ $searchDebounce }}ms="search" @endif
-                            @if ($searchUpdateMethod === 'lazy') wire:model.lazy="search" @endif
-                            @if ($disableSearchOnLoading) wire:loading.attr="disabled" @endif
-                            class="form-control"
-                            type="text"
-                            aria-describedby="search"
-                            placeholder="{{ __('laravel-livewire-tables::strings.search') }}"
-                        />
-                        <div class="input-group-append">
-                            <span class="input-group-text" id="search">
-                                <i class="i-Magnifi-Glass1"></i>
-                            </span>
-                        </div>
-                       
-                        @if ($clearSearchButton)
-                            <div class="input-group-append">
-                                <button class="input-group-text" id="search" type="button" wire:click="clearSearch">@lang('laravel-livewire-tables::strings.clear')
-                                </button>
-                            </div>
+        <div class="col-6">
+            <div class="input-group">
+                @if ($searchEnabled)
+                    <input
+                        @if (is_numeric($searchDebounce) && $searchUpdateMethod === 'debounce') wire:model.debounce.{{ $searchDebounce }}ms="search" @endif
+                        @if ($searchUpdateMethod === 'lazy') wire:model.lazy="search" @endif
+                        @if ($disableSearchOnLoading) wire:loading.attr="disabled" @endif
+                        class="form-control"
+                        type="text"
+                        aria-describedby="search"
+                        placeholder="{{ __('laravel-livewire-tables::strings.search') }}"
+                    />
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="search">
+                            <i class="i-Magnifi-Glass1"></i>
+                        </span>
                     </div>
                 @endif
-            </div>
-        @endif
+                
+                @if ($clearSearchButton)
+                    <div class="input-group-append">
+                        <button class="input-group-text" id="search" type="button" wire:click="clearSearch">@lang('laravel-livewire-tables::strings.clear')
+                        </button>
+                    </div>
+                @endif
 
-        @include('laravel-livewire-tables::'.config('laravel-livewire-tables.theme').'.includes.export')
+
+                {{-- @include('laravel-livewire-tables::'.config('laravel-livewire-tables.theme').'includes.filters') --}}
+
+                @include('laravel-livewire-tables::'.config('laravel-livewire-tables.theme').'.includes.export')
+            </div>
+        </div>
+        
     </div><!--row-->
 @endif

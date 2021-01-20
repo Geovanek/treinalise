@@ -99,10 +99,17 @@
                             <span>Li e aceito a <strong class="text-capitalize">política de privacidade</strong>.</span>
                             <input type="checkbox" wire:model.lazy="company.privacy_policy"><span class="slider"></span>
                         </label>
-                        <p class="mb-0">
-                            
-                        </p>
-                        <a href="#" data-toggle="modal" data-target="#modal"><small>Clique aqui para ler a política de privacidade</small></a>
+                        <p class="mb-0"></p>
+                        <a href="#" data-toggle="modal" data-target="#modalPrivacyPolicy"><small>Clique aqui para ler a política de privacidade.</small></a>
+                    </div>
+
+                    <div class="alert {{ $errors->has('company.terms_of_use') ? 'alert-danger' : 'alert-light' }}" role="alert">
+                        <label class="switch switch-success mr-3">
+                            <span>Li e aceito os <strong class="text-capitalize">termos de uso</strong>.</span>
+                            <input type="checkbox" wire:model.lazy="company.terms_of_use"><span class="slider"></span>
+                        </label>
+                        <p class="mb-0"></p>
+                        <a href="#" data-toggle="modal" data-target="#modalTermsOfUse"><small>Clique aqui para ler os termos de uso.</small></a>
                     </div>
                 </div>
             @endif
@@ -275,21 +282,5 @@
     </form>
 </div>
 
-
-<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalPrivacyPolicy" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="modalPrivacyPolity">
-                    Política de Privacidade
-                </h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-
-            </div>
-        </div>
-    </div>
-</div>
+@include('livewire.front.modalPrivacyPolicy')
+@include('livewire.front.modalTermsOfUse')

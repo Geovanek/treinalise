@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\CompanyProfileController;
 use App\Http\Controllers\Admin\PlanController;
 use App\Http\Controllers\Admin\PlanDetailController;
 use App\Http\Controllers\Admin\PlanCompanyController;
@@ -53,11 +54,23 @@ Route::group(['prefix' => 'admin'], function(){
             'show'
         ]);
 
+        /** Users Routes */
+        Route::group(['prefix' => 'users'], function(){
+            Route::view('/{id}/profile', 'admin.users.profile')->name('users.profile');
+            Route::view('/', 'admin.users.index')->name('users.index');
+        });
+
+        /** Athletes Routes */
+        Route::group(['prefix' => 'athletes'], function(){
+            Route::view('/{uuid}/profile', 'admin.athletes.profile')->name('athletes.profile');
+            Route::view('/', 'admin.athletes.index')->name('athletes.index');
+        });
+
         /** Companies Routes */
         Route::group(['prefix' => 'companies'], function(){
             //Route::view('/{id}/companies', 'admin.companies.companies')->name('companies.companies');
             //Route::view('/{url}/plans', 'admin.companies.plans')->name('companies.plans');
-            Route::view('/{slug}/profile', 'admin.companies.profile')->name('companies.profile');
+            Route::get('/{slug}/profile', [CompanyProfileController::class, 'index'])->name('companies.profile');
             Route::view('/', 'admin.companies.index')->name('companies.index');
         });
         

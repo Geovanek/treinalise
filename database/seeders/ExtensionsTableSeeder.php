@@ -23,7 +23,7 @@ class ExtensionsTableSeeder extends Seeder
             'state_color' => 'success',
         ]);
         $extension->plans()->sync([1, 2, 3]);
-        $extension->companies()->sync([1, 4, 5]);
+        $extension->companies()->sync(4);
 
         Extension::create([
             'name' => 'Sintomas de Stress',
@@ -41,7 +41,7 @@ class ExtensionsTableSeeder extends Seeder
             'state_color' => 'info',
         ]);
         $extension->plans()->sync(1);
-        $extension->companies()->sync([2, 3]);
+        $extension->companies()->sync(3);
 
         Extension::all()->each(function ($extension) {
             $extension->details()->saveMany(ExtensionDetail::factory(3)->make());

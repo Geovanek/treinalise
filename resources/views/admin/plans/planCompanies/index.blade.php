@@ -28,24 +28,26 @@
                 <table id="datables" class="table table-hover" style="border-collapse: collapse !important">
                     <thead>
                         <tr>
-                            <th scope="col" style="width:10px">#</th>
                             <th scope="col" class="d-none d-sm-block">Logo</th>
                             <th scope="col">Empresa</th>
                             <th scope="col">Responsável</th>
+                            <th scope="col"></th>
                         </tr>
                     </thead>
                     <tbody>
-                        @php $i=1 @endphp
                         @foreach($plan->companies as $company)
                             <tr>
-                                <th scope="row">{{ $i }}</th>
                                 <td class="d-none d-sm-block">
                                     <img class="rounded-circle m-0 avatar-sm-table" src="{{ asset('img/companies/logo/'.$company->logo) }}" alt="">
                                 </td>
                                 <td>{{ $company->name }}</td>
                                 <td>{{ $company->user->name }}</td>
+                                <td>
+                                    <a href="{{ route('companies.profile', ['slug' => $company->slug]) }}">
+                                        <i class="nav-icon fas fa-eye text-18"></i>
+                                    </a>
+                                </td>
                             </tr>
-                            @php $i++ @endphp
                         @endforeach
                     </tbody>
                 </table>

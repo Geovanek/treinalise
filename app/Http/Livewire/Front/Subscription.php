@@ -2,11 +2,7 @@
 
 namespace App\Http\Livewire\Front;
 
-use App\Models\Coach;
-use App\Models\Company;
-use App\Models\Plan;
-use App\Models\User;
-use App\Services\CompanyService;
+use App\Services\SubscriptionService;
 use Livewire\Component;
 
 class Subscription extends Component
@@ -23,6 +19,7 @@ class Subscription extends Component
         'company.email' => 'required|email',
         'company.phone' => 'required',
         'company.privacy_policy' => 'accepted',
+        'company.terms_of_use' => 'accepted',
 
         'user.name' => 'required|min:3',
         'user.email' => 'required|email|unique:users,email',
@@ -112,6 +109,11 @@ class Subscription extends Component
     public function updatedCompanyPrivacyPolicy($value)
     {
         $this->validateOnly('company.privacy_policy');
+    }
+
+    public function updatedCompanyTermsOfUse($value)
+    {
+        $this->validateOnly('company.terms_of_use');
     }
 
     public function updatedUserName($value)

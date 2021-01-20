@@ -11,7 +11,7 @@
         @endif
             <table class="{{ $this->getOption('bootstrap.classes.table') }}" style="{{ $this->getOption('bootstrap.styles.table') }}">
                 @include('laravel-livewire-tables::'.config('laravel-livewire-tables.theme').'.includes.thead')
-
+                <tbody>
                     @if($models->isEmpty())
                         @include('laravel-livewire-tables::'.config('laravel-livewire-tables.theme').'.includes.empty')
                     @else

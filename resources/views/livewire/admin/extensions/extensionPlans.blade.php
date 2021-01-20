@@ -26,7 +26,7 @@
             @else
                 <div class="not-found-wrap text-center">
                     <h1 class="text-60 badge badge-primary r-badge">Nenhum plano encontrado</h1>
-                    <p class="text-36 subheading mb-3">Essa extensão não esta vinculada a nenhuma plano.</p>
+                    <p class="text-36 subheading mb-3">Essa extensão não esta vinculada a nenhum plano.</p>
                     <p class="mb-2 text-muted text-18">Disponível somente para contratação a parte.</p>
                 </div>
             @endif

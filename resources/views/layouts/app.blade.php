@@ -22,6 +22,7 @@
     @yield('before-css')
 
     {{-- theme css --}}
+    <link rel="stylesheet" href="{{ asset('gull/assets/fonts/fontawesome-free-5.10.1-web/css/all.css') }}">
     <link id="gull-theme" rel="stylesheet" href="{{ asset('gull/assets/fonts/iconsmind/iconsmind.css') }}">
     <link id="gull-theme" rel="stylesheet" href="{{ asset('gull/assets/styles/css/themes/lite-custom.min.css') }}">
     <link rel="stylesheet" href="{{ asset('gull/assets/styles/vendor/perfect-scrollbar.css') }}">

@@ -5,6 +5,7 @@ namespace App\Models;
 
 use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 
 class Company extends Model
 {
@@ -14,7 +15,7 @@ class Company extends Model
     const COMPANY_TYPE_LEGAL = 'cnpj';
     
     protected $fillable = [
-        'name', 'document_number', 'company_type', 'email', 'phone', 'whatsapp', 'privacy_policy', 'slug', 'logo', 'active', 'subscription', 'expires_at', 'subscription_id', 'subscription_active', 'subscription_suspended',
+        'name', 'document_number', 'company_type', 'email', 'phone', 'whatsapp', 'privacy_policy', 'terms_of_use', 'slug', 'logo', 'active', 'subscription', 'expires_at', 'subscription_id', 'subscription_active', 'subscription_suspended',
     ];
 
     /**
@@ -60,7 +61,8 @@ class Company extends Model
     {
         return [
             'slug' => [
-                'source' => 'name'
+                'source' => 'name',
+                'onUpdate' => true,
             ]
         ];
     }

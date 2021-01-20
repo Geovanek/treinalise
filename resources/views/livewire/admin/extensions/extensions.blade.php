@@ -90,7 +90,7 @@
                             <div class="ul-widget-app__profile-footer">
                                 <div class="ul-widget-app__profile-footer-font" data-toggle="tooltip" data-trigger="hover" data-original-title="Editar" title="Editar">
                                     <a href="#" wire:click="action('update', '{{ $extension->uuid }}')" data-toggle="modal" data-target="#modal">
-                                        <i class="i-Edit text-20 text-success font-weight-600 mr-1"></i>
+                                        <i class="far fa-edit {{-- i-Edit --}} text-20 text-success font-weight-600 mr-1"></i>
                                     </a>
                                 </div>
                                 <div class="ul-widget-app__profile-footer-font" data-toggle="tooltip" data-trigger="hover" data-original-title="Detalhes" title="Detalhes">
@@ -100,17 +100,17 @@
                                 </div>
                                 <div class="ul-widget-app__profile-footer-font" data-toggle="tooltip" data-trigger="hover" data-original-title="Planos Associados" title="Planos Associados">
                                     <a href="{{ route('extensions.plans', $extension->slug) }}">
-                                        <i class="i-Billing text-20 text-info font-weight-600 mr-1"></i>
+                                        <i class="fas fa-file-invoice-dollar {{-- i-Billing  --}}text-20 text-info mr-1"></i>
                                     </a>
                                 </div>
                                 <div class="ul-widget-app__profile-footer-font" data-toggle="tooltip" data-trigger="hover" data-original-title="Empresas com a Extensão" title="Empresas com a Extensão">
                                     <a href="{{ route('extensions.companies', $extension->id) }}">
-                                        <i class="i-Shop text-20 text-secondary font-weight-600 mr-1"></i>
+                                        <i class="far fa-building {{-- i-Shop --}} text-20 text-secondary font-weight-500 mr-1"></i>
                                     </a>
                                 </div>
                                 <div class="ul-widget-app__profile-footer-font" data-toggle="tooltip" data-trigger="hover" data-original-title="Excluir Extensão" title="Excluir Extensão">
                                     <a href="#" wire:click.prevent="showConfirmation('{{ $extension->uuid }}')">
-                                        <i class="i-Close-Window text-20 text-danger font-weight-600 mr-1"></i>
+                                        <i class="fas fa-trash-alt {{-- i-Close-Window --}} text-20 text-danger font-weight-500 mr-1"></i>
                                     </a>
                                 </div>
                             </div>

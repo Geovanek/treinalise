@@ -24,7 +24,8 @@ class CreateCompaniesTable extends Migration
             $table->string('email');
             $table->string('phone');
             $table->enum('whatsapp', ['Y','N'])->default('N');
-            $table->enum('privacy_policy', ['Y','N'])->default('Y');
+            $table->enum('privacy_policy', ['Y','N'])->default('N');
+            $table->enum('terms_of_use', ['Y','N'])->default('N');
             $table->string('slug')->unique();
             $table->string('logo')->nullable();
 

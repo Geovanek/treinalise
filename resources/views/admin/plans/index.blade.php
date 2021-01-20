@@ -66,23 +66,23 @@
                                         </ul>
                                     </div>
 
-                                    <a href="{{ route('plans.edit', $plan->id) }}" class="btn btn-success btn-rounded" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Editar plano">
-                                        <i class="nav-icon text-white i-Pen-4"></i>
+                                    <a href="{{ route('plans.edit', $plan->id) }}" class="btn btn-success btn-rounded pr-3 pl-3" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Editar plano">
+                                        <i class="nav-icon text-white fas fa-pencil-alt {{-- i-Pen-4 --}}"></i>
                                     </a>
-                                    <a href="{{ route('details.index', $plan->slug) }}" class="btn btn-info btn-rounded" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Detalhes do plano">
-                                        <i class="nav-icon text-white i-Check"></i>
+                                    <a href="{{ route('details.index', $plan->slug) }}" class="btn btn-info btn-rounded pr-3 pl-3" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Detalhes do plano">
+                                        <i class="nav-icon text-white fas fa-info {{-- i-Check --}}"></i>
                                     </a>
-                                    <a href="{{ route('plans.extensions', $plan->slug) }}" class="btn btn-warning btn-rounded" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Adicinoar extensões ao plano">
-                                        <i class="nav-icon text-white i-Financial"></i>
+                                    <a href="{{ route('plans.extensions', $plan->slug) }}" class="btn btn-warning btn-rounded pr-3 pl-3" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Adicinoar extensões ao plano">
+                                        <i class="nav-icon text-white fas fa-puzzle-piece {{-- i-Financial --}}"></i>
                                     </a>
-                                    <a href="{{ route('plans.companies', $plan->id) }}" class="btn btn-primary btn-rounded" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Empresas vinculadas ao plano">
-                                        <i class="nav-icon text-white i-Shop"></i>
+                                    <a href="{{ route('plans.companies', $plan->id) }}" class="btn btn-primary btn-rounded pr-3 pl-3" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Empresas vinculadas ao plano">
+                                        <i class="nav-icon text-white fas fa-building {{-- i-Shop --}}"></i>
                                     </a>
                                     <form action="{{ route('plans.destroy', $plan->id) }}" method="POST" style="display: inline">
                                         @csrf
                                         @method('DELETE')
-                                        <button type="submit" class="btn btn-danger btn-rounded alert-confirm" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Excluir plano">
-                                            <i class="nav-icon text-white i-Close"></i>
+                                        <button type="submit" class="btn btn-danger btn-rounded pr-3 pl-3 alert-confirm" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Excluir plano">
+                                            <i class="nav-icon text-white fas fa-trash-alt {{-- i-Close --}}"></i>
                                         </button>
                                     </form>
 
